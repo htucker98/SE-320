@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'application'
+    // Java Microbenchmark Harness
+    id "me.champeau.jmh" version '0.6.6'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+mainClassName = "Benchmark"
+
+dependencies {
+    // Guava for contracts
+    implementation 'com.google.guava:guava:31.0-jre'
+    // Apache Commons for silly things like pairs
+    implementation 'org.apache.commons:commons-lang3:3.11'
+
+    // jqwik for property-based testing
+    testImplementation "net.jqwik:jqwik:1.5.6"
+
+    // Hamcrest matchers
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+    
+    // JUnit for tests
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.8.1"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:5.8.1"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.8.1"
+
+}
+
+test {
+    testLogging {
+        events "passed", "skipped", "failed"
+	exceptionFormat "short"
+    }
+}
+compileTestJava {
+	options.compilerArgs += '-parameters'
+	options.encoding = 'UTF-8'
+}
+
+jacoco {
+    toolVersion = "0.8.5"
+    reportsDir = file("${buildDir}/reports/coverage")
+}
+
+// This task only runs if 'test' has already run, i.e., "gradle test jacocoTestReport"
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination file("${buildDir}/reports/coverage")
+    }
+}
+
+tasks.withType(Test) {
+    // Enable assertions (-ea) for tests
+    enableAssertions = true
+}

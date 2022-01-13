@@ -1,0 +1,2636 @@
+versions pytest-6.2.5, py-1.11.0, python-3.8.2.final.0
+cwd=/Users/hanatucker/Desktop/modelTrainging
+args=('--capture=no', '--hypothesis-show-statistics', '--debug', 'propertytests.py')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x10a585b50>
+    pytest_plugin_registered [hook]
+        plugin: <Session modelTrainging exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x10a585b50>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10a9c34c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10a9c32b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+    matched marked file 'hypothesis' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/__init__.py [assertion]
+    matched marked file 'hypothesis._error_if_old' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis._error_if_old [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/_error_if_old.py [assertion]
+    matched marked file 'hypothesis.version' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.version [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/version.py [assertion]
+    matched marked file 'hypothesis._settings' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis._settings [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/_settings.py [assertion]
+    matched marked file 'hypothesis.errors' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.errors [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/errors.py [assertion]
+    matched marked file 'hypothesis.internal' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/__init__.py [assertion]
+    matched marked file 'hypothesis.internal.reflection' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.reflection [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/reflection.py [assertion]
+    early skip of rewriting module: hashlib [assertion]
+    early skip of rewriting module: _hashlib [assertion]
+    early skip of rewriting module: _blake2 [assertion]
+    early skip of rewriting module: _sha3 [assertion]
+    matched marked file 'hypothesis.internal.compat' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.compat [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/compat.py [assertion]
+    matched marked file 'hypothesis.vendor' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.vendor [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/vendor/__init__.py [assertion]
+    matched marked file 'hypothesis.vendor.pretty' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.vendor.pretty [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/vendor/pretty.py [assertion]
+    matched marked file 'hypothesis.internal.validation' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.validation [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/validation.py [assertion]
+    matched marked file 'hypothesis.internal.coverage' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.coverage [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/coverage.py [assertion]
+    matched marked file 'hypothesis.utils' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.utils [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/utils/__init__.py [assertion]
+    matched marked file 'hypothesis.utils.conventions' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.utils.conventions [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/utils/conventions.py [assertion]
+    matched marked file 'hypothesis.utils.dynamicvariables' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.utils.dynamicvariables [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/utils/dynamicvariables.py [assertion]
+    matched marked file 'hypothesis.control' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.control [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/control.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/__init__.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.data' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.data [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/data.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.junkdrawer' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.junkdrawer [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/junkdrawer.py [assertion]
+    early skip of rewriting module: array [assertion]
+    matched marked file 'hypothesis.internal.conjecture.utils' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.utils [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/utils.py [assertion]
+    matched marked file 'hypothesis.internal.floats' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.floats [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/floats.py [assertion]
+    matched marked file 'hypothesis.reporting' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.reporting [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/reporting.py [assertion]
+    matched marked file 'hypothesis.core' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.core [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/core.py [assertion]
+    matched marked file 'hypothesis.strategies' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/__init__.py [assertion]
+    matched marked file 'hypothesis.strategies._internal' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/__init__.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.strategies' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.strategies [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/strategies.py [assertion]
+    matched marked file 'hypothesis.internal.lazyformat' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.lazyformat [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/lazyformat.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.utils' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.utils [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/utils.py [assertion]
+    matched marked file 'hypothesis.internal.cache' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.cache [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/cache.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.collections' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.collections [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/collections.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.lazy' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.lazy [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/lazy.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.core' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.core [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/core.py [assertion]
+    early skip of rewriting module: fractions [assertion]
+    matched marked file 'hypothesis.internal.cathetus' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.cathetus [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/cathetus.py [assertion]
+    matched marked file 'hypothesis.internal.charmap' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.charmap [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/charmap.py [assertion]
+    early skip of rewriting module: gzip [assertion]
+    matched marked file 'hypothesis.configuration' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.configuration [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/configuration.py [assertion]
+    matched marked file 'hypothesis.internal.entropy' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.entropy [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/entropy.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.deferred' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.deferred [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/deferred.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.functions' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.functions [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/functions.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.shared' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.shared [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/shared.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.misc' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.misc [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/misc.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.numbers' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.numbers [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/numbers.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.floats' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.floats [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/floats.py [assertion]
+    matched marked file 'hypothesis.internal.filtering' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.filtering [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/filtering.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.recursive' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.recursive [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/recursive.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.strings' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.strings [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/strings.py [assertion]
+    matched marked file 'hypothesis.internal.intervalsets' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.intervalsets [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/intervalsets.py [assertion]
+    matched marked file 'hypothesis.strategies._internal.datetime' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.datetime [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/datetime.py [assertion]
+    early skip of rewriting module: calendar [assertion]
+    early skip of rewriting module: importlib.resources [assertion]
+    early skip of rewriting module: zoneinfo [assertion]
+    early skip of rewriting module: backports [assertion]
+    matched marked file 'hypothesis.strategies._internal.ipaddress' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.strategies._internal.ipaddress [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/_internal/ipaddress.py [assertion]
+    early skip of rewriting module: ipaddress [assertion]
+    matched marked file 'hypothesis.executors' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.executors [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/executors.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.engine' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.engine [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/engine.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.datatree' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.datatree [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/datatree.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.pareto' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.pareto [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/pareto.py [assertion]
+    early skip of rewriting module: sortedcontainers [assertion]
+    early skip of rewriting module: sortedcontainers.sortedlist [assertion]
+    early skip of rewriting module: sortedcontainers.sortedset [assertion]
+    early skip of rewriting module: sortedcontainers.sorteddict [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinker' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinker [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinker.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.choicetree' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.choicetree [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/choicetree.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinking' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinking [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinking/__init__.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinking.floats' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinking.floats [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinking/floats.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinking.common' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinking.common [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinking/common.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinking.integer' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinking.integer [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinking/integer.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinking.lexical' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinking.lexical [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinking/lexical.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinking.ordering' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinking.ordering [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinking/ordering.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.shrinking.learned_dfas' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.shrinking.learned_dfas [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/shrinking/learned_dfas.py [assertion]
+    matched marked file 'hypothesis.internal.conjecture.dfa' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.conjecture.dfa [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/dfa/__init__.py [assertion]
+    matched marked file 'hypothesis.internal.healthcheck' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.healthcheck [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/healthcheck.py [assertion]
+    matched marked file 'hypothesis.internal.escalation' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.escalation [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/escalation.py [assertion]
+    matched marked file 'hypothesis.internal.scrutineer' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.internal.scrutineer [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/scrutineer.py [assertion]
+    matched marked file 'hypothesis.statistics' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.statistics [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/statistics.py [assertion]
+    early skip of rewriting module: statistics [assertion]
+    early skip of rewriting module: _statistics [assertion]
+    matched marked file 'hypothesis.entry_points' (from 'hypothesis') [assertion]
+    find_module called for: hypothesis.entry_points [assertion]
+    found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/entry_points.py [assertion]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x10a585b50>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10ab23160>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10995a850>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10a585b50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_repeat' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/pytest_repeat.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_hypothesis_pytestplugin' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_hypothesis_pytestplugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10a9c34c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10a9c32b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10ab23160>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10ad3f8e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10ad7e0d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10995a850>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10a585b50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_repeat' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/pytest_repeat.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_hypothesis_pytestplugin' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_hypothesis_pytestplugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10a9c34c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10a9c32b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10ab23160>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10ad3f8e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10ad7e0d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x10a9c3670>
+          manager: <_pytest.config.PytestPluginManager object at 0x10995a850>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x10a585b50>
+          startdir: /Users/hanatucker/Desktop/modelTrainging
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: uu [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      finish pytest_report_header --> [['rootdir: /Users/hanatucker/Desktop/modelTrainging', 'plugins: repeat-0.9.1, hypothesis-6.31.3'], ['using: pytest-6.2.5 pylib-1.11.0', 'setuptools registered plugins:', '  pytest-repeat-0.9.1 at /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/pytest_repeat.py', '  hypothesis-6.31.3 at /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_hypothesis_pytestplugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['propertytests.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('/Users/hanatucker/Desktop/modelTrainging/propertytests.py'), []) [collection]
+            pytest_collect_file [hook]
+                path: /Users/hanatucker/Desktop/modelTrainging/propertytests.py
+                parent: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/hanatucker/Desktop/modelTrainging/propertytests.py
+                  parent: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Module propertytests.py> [hook]
+            finish pytest_collect_file --> [<Module propertytests.py>] [hook]
+          matchnodes [<Module propertytests.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module propertytests.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module propertytests.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module propertytests.py>
+      find_module called for: propertytests [assertion]
+      matched test file (was specified on cmdline): '/Users/hanatucker/Desktop/modelTrainging/propertytests.py' [assertion]
+      _read_pyc(/Users/hanatucker/Desktop/modelTrainging/propertytests.py): out of date [assertion]
+      rewriting PosixPath('/Users/hanatucker/Desktop/modelTrainging/propertytests.py') [assertion]
+      early skip of rewriting module: timeit [assertion]
+      early skip of rewriting module: pandas [assertion]
+      early skip of rewriting module: numpy [assertion]
+      early skip of rewriting module: numpy._globals [assertion]
+      early skip of rewriting module: numpy.__config__ [assertion]
+      early skip of rewriting module: numpy._version [assertion]
+      early skip of rewriting module: numpy._distributor_init [assertion]
+      early skip of rewriting module: numpy.core [assertion]
+      early skip of rewriting module: numpy.version [assertion]
+      early skip of rewriting module: numpy.core.multiarray [assertion]
+      early skip of rewriting module: numpy.core.overrides [assertion]
+      early skip of rewriting module: numpy.core._multiarray_umath [assertion]
+      early skip of rewriting module: numpy.compat [assertion]
+      early skip of rewriting module: numpy.compat._inspect [assertion]
+      early skip of rewriting module: numpy.compat.py3k [assertion]
+      early skip of rewriting module: pickle5 [assertion]
+      early skip of rewriting module: pickle [assertion]
+      early skip of rewriting module: _compat_pickle [assertion]
+      early skip of rewriting module: _pickle [assertion]
+      early skip of rewriting module: org [assertion]
+      early skip of rewriting module: numpy.core.umath [assertion]
+      early skip of rewriting module: numpy.core.numerictypes [assertion]
+      early skip of rewriting module: numpy.core._string_helpers [assertion]
+      early skip of rewriting module: numpy.core._type_aliases [assertion]
+      early skip of rewriting module: numpy.core._dtype [assertion]
+      early skip of rewriting module: numpy.core.numeric [assertion]
+      early skip of rewriting module: numpy.core.shape_base [assertion]
+      early skip of rewriting module: numpy.core.fromnumeric [assertion]
+      early skip of rewriting module: numpy.core._methods [assertion]
+      early skip of rewriting module: numpy.core._exceptions [assertion]
+      early skip of rewriting module: numpy.core._ufunc_config [assertion]
+      early skip of rewriting module: numpy.core.arrayprint [assertion]
+      early skip of rewriting module: numpy.core._asarray [assertion]
+      early skip of rewriting module: numpy.core.defchararray [assertion]
+      early skip of rewriting module: numpy.core.records [assertion]
+      early skip of rewriting module: numpy.core.memmap [assertion]
+      early skip of rewriting module: numpy.core.function_base [assertion]
+      early skip of rewriting module: numpy.core.machar [assertion]
+      early skip of rewriting module: numpy.core.getlimits [assertion]
+      early skip of rewriting module: numpy.core.einsumfunc [assertion]
+      early skip of rewriting module: numpy.core._add_newdocs [assertion]
+      early skip of rewriting module: numpy.core._multiarray_tests [assertion]
+      early skip of rewriting module: numpy.core._add_newdocs_scalars [assertion]
+      early skip of rewriting module: numpy.core._dtype_ctypes [assertion]
+      early skip of rewriting module: numpy.core._internal [assertion]
+      early skip of rewriting module: ctypes [assertion]
+      early skip of rewriting module: _ctypes [assertion]
+      early skip of rewriting module: ctypes._endian [assertion]
+      early skip of rewriting module: numpy._pytesttester [assertion]
+      early skip of rewriting module: numpy.lib [assertion]
+      early skip of rewriting module: numpy.lib.mixins [assertion]
+      early skip of rewriting module: numpy.lib.scimath [assertion]
+      early skip of rewriting module: numpy.lib.type_check [assertion]
+      early skip of rewriting module: numpy.lib.ufunclike [assertion]
+      early skip of rewriting module: numpy.lib.index_tricks [assertion]
+      early skip of rewriting module: numpy.matrixlib [assertion]
+      early skip of rewriting module: numpy.matrixlib.defmatrix [assertion]
+      early skip of rewriting module: numpy.linalg [assertion]
+      early skip of rewriting module: numpy.linalg.linalg [assertion]
+      early skip of rewriting module: numpy.lib.twodim_base [assertion]
+      early skip of rewriting module: numpy.lib.stride_tricks [assertion]
+      early skip of rewriting module: numpy.linalg.lapack_lite [assertion]
+      early skip of rewriting module: numpy.linalg._umath_linalg [assertion]
+      early skip of rewriting module: numpy.lib.function_base [assertion]
+      early skip of rewriting module: numpy.lib.histograms [assertion]
+      early skip of rewriting module: numpy.lib.nanfunctions [assertion]
+      early skip of rewriting module: numpy.lib.shape_base [assertion]
+      early skip of rewriting module: numpy.lib.polynomial [assertion]
+      early skip of rewriting module: numpy.lib.utils [assertion]
+      early skip of rewriting module: numpy.lib.arraysetops [assertion]
+      early skip of rewriting module: numpy.lib.npyio [assertion]
+      early skip of rewriting module: numpy.lib.format [assertion]
+      early skip of rewriting module: numpy.lib._datasource [assertion]
+      early skip of rewriting module: numpy.lib._iotools [assertion]
+      early skip of rewriting module: numpy.lib.arrayterator [assertion]
+      early skip of rewriting module: numpy.lib.arraypad [assertion]
+      early skip of rewriting module: numpy.lib._version [assertion]
+      early skip of rewriting module: numpy.fft [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft_internal [assertion]
+      early skip of rewriting module: numpy.fft.helper [assertion]
+      early skip of rewriting module: numpy.polynomial [assertion]
+      early skip of rewriting module: numpy.polynomial.polynomial [assertion]
+      early skip of rewriting module: numpy.polynomial.polyutils [assertion]
+      early skip of rewriting module: numpy.polynomial._polybase [assertion]
+      early skip of rewriting module: numpy.polynomial.chebyshev [assertion]
+      early skip of rewriting module: numpy.polynomial.legendre [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite_e [assertion]
+      early skip of rewriting module: numpy.polynomial.laguerre [assertion]
+      early skip of rewriting module: numpy.random [assertion]
+      early skip of rewriting module: numpy.random._pickle [assertion]
+      early skip of rewriting module: numpy.random.mtrand [assertion]
+      early skip of rewriting module: numpy.random.bit_generator [assertion]
+      early skip of rewriting module: numpy.random._common [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: secrets [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: numpy.random._bounded_integers [assertion]
+      early skip of rewriting module: numpy.random._mt19937 [assertion]
+      early skip of rewriting module: numpy.random._philox [assertion]
+      early skip of rewriting module: numpy.random._pcg64 [assertion]
+      early skip of rewriting module: numpy.random._sfc64 [assertion]
+      early skip of rewriting module: numpy.random._generator [assertion]
+      early skip of rewriting module: numpy.ctypeslib [assertion]
+      early skip of rewriting module: numpy.ma [assertion]
+      early skip of rewriting module: numpy.ma.core [assertion]
+      early skip of rewriting module: numpy.ma.extras [assertion]
+      early skip of rewriting module: pytz [assertion]
+      early skip of rewriting module: pytz.exceptions [assertion]
+      early skip of rewriting module: pytz.lazy [assertion]
+      early skip of rewriting module: pytz.tzinfo [assertion]
+      early skip of rewriting module: pytz.tzfile [assertion]
+      early skip of rewriting module: dateutil [assertion]
+      early skip of rewriting module: dateutil._version [assertion]
+      early skip of rewriting module: pandas.compat [assertion]
+      early skip of rewriting module: pandas._typing [assertion]
+      early skip of rewriting module: mmap [assertion]
+      early skip of rewriting module: pandas.compat.numpy [assertion]
+      early skip of rewriting module: pandas.util [assertion]
+      early skip of rewriting module: pandas.util._decorators [assertion]
+      early skip of rewriting module: pandas._libs [assertion]
+      early skip of rewriting module: pandas._libs.interval [assertion]
+      early skip of rewriting module: pandas._libs.hashtable [assertion]
+      early skip of rewriting module: pandas._libs.missing [assertion]
+      early skip of rewriting module: pandas._libs.tslibs [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.dtypes [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.conversion [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.base [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.nattype [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.np_datetime [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.timezones [assertion]
+      early skip of rewriting module: dateutil.tz [assertion]
+      early skip of rewriting module: dateutil.tz.tz [assertion]
+      early skip of rewriting module: six [assertion]
+      early skip of rewriting module: six.moves [assertion]
+      early skip of rewriting module: dateutil.tz._common [assertion]
+      early skip of rewriting module: dateutil.tz._factories [assertion]
+      early skip of rewriting module: dateutil.tz.win [assertion]
+      early skip of rewriting module: six.moves.winreg [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.tzconversion [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.ccalendar [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.parsing [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.offsets [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.timedeltas [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.fields [assertion]
+      early skip of rewriting module: pandas._config [assertion]
+      early skip of rewriting module: pandas._config.config [assertion]
+      early skip of rewriting module: pandas._config.dates [assertion]
+      early skip of rewriting module: pandas._config.display [assertion]
+      early skip of rewriting module: pandas._config.localization [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.strptime [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.timestamps [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: dateutil.easter [assertion]
+      early skip of rewriting module: dateutil.relativedelta [assertion]
+      early skip of rewriting module: dateutil._common [assertion]
+      early skip of rewriting module: pandas._libs.properties [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: dateutil.parser [assertion]
+      early skip of rewriting module: dateutil.parser._parser [assertion]
+      early skip of rewriting module: dateutil.parser.isoparser [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.period [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.vectorized [assertion]
+      early skip of rewriting module: pandas._libs.ops_dispatch [assertion]
+      early skip of rewriting module: pandas._libs.algos [assertion]
+      early skip of rewriting module: pandas.core [assertion]
+      early skip of rewriting module: pandas.core.util [assertion]
+      early skip of rewriting module: pandas.core.util.hashing [assertion]
+      early skip of rewriting module: pandas._libs.lib [assertion]
+      early skip of rewriting module: pandas._libs.tslib [assertion]
+      early skip of rewriting module: pandas._libs.hashing [assertion]
+      early skip of rewriting module: pandas.core.dtypes [assertion]
+      early skip of rewriting module: pandas.core.dtypes.common [assertion]
+      early skip of rewriting module: pandas.core.dtypes.base [assertion]
+      early skip of rewriting module: pandas.errors [assertion]
+      early skip of rewriting module: pandas.core.dtypes.generic [assertion]
+      early skip of rewriting module: pandas.core.dtypes.dtypes [assertion]
+      early skip of rewriting module: pandas.core.dtypes.inference [assertion]
+      early skip of rewriting module: pandas.util.version [assertion]
+      early skip of rewriting module: pandas.compat.pyarrow [assertion]
+      early skip of rewriting module: pyarrow [assertion]
+      early skip of rewriting module: pandas.core.config_init [assertion]
+      early skip of rewriting module: pandas.core.api [assertion]
+      early skip of rewriting module: pandas.core.dtypes.missing [assertion]
+      early skip of rewriting module: pandas.core.algorithms [assertion]
+      early skip of rewriting module: pandas.core.dtypes.cast [assertion]
+      early skip of rewriting module: pandas.util._exceptions [assertion]
+      early skip of rewriting module: pandas.util._validators [assertion]
+      early skip of rewriting module: pandas.core.array_algos [assertion]
+      early skip of rewriting module: pandas.core.array_algos.take [assertion]
+      early skip of rewriting module: pandas.core.construction [assertion]
+      early skip of rewriting module: pandas.core.common [assertion]
+      early skip of rewriting module: pandas.core.indexers [assertion]
+      early skip of rewriting module: pandas.core.arrays [assertion]
+      early skip of rewriting module: pandas.core.arrays.base [assertion]
+      early skip of rewriting module: pandas.compat.numpy.function [assertion]
+      early skip of rewriting module: pandas.core.missing [assertion]
+      early skip of rewriting module: pandas.compat._optional [assertion]
+      early skip of rewriting module: pandas.core.ops [assertion]
+      early skip of rewriting module: pandas.core.roperator [assertion]
+      early skip of rewriting module: pandas.core.ops.array_ops [assertion]
+      early skip of rewriting module: pandas._libs.ops [assertion]
+      early skip of rewriting module: pandas.core.computation [assertion]
+      early skip of rewriting module: pandas.core.computation.expressions [assertion]
+      early skip of rewriting module: pandas.core.computation.check [assertion]
+      early skip of rewriting module: numexpr [assertion]
+      early skip of rewriting module: pandas.core.ops.missing [assertion]
+      early skip of rewriting module: pandas.core.ops.dispatch [assertion]
+      early skip of rewriting module: pandas.core.ops.invalid [assertion]
+      early skip of rewriting module: pandas.core.ops.common [assertion]
+      early skip of rewriting module: pandas.core.ops.docstrings [assertion]
+      early skip of rewriting module: pandas.core.ops.mask_ops [assertion]
+      early skip of rewriting module: pandas.core.ops.methods [assertion]
+      early skip of rewriting module: pandas.core.sorting [assertion]
+      early skip of rewriting module: pandas.core.arrays.boolean [assertion]
+      early skip of rewriting module: pandas.core.arrays.masked [assertion]
+      early skip of rewriting module: pandas.core.nanops [assertion]
+      early skip of rewriting module: bottleneck [assertion]
+      early skip of rewriting module: pandas.core.array_algos.masked_reductions [assertion]
+      early skip of rewriting module: pandas.core.arraylike [assertion]
+      early skip of rewriting module: pandas.core.arrays.categorical [assertion]
+      early skip of rewriting module: pandas._libs.arrays [assertion]
+      early skip of rewriting module: pandas.core.accessor [assertion]
+      early skip of rewriting module: pandas.core.arrays._mixins [assertion]
+      early skip of rewriting module: pandas.core.array_algos.transforms [assertion]
+      early skip of rewriting module: pandas.core.base [assertion]
+      early skip of rewriting module: pandas.core.strings [assertion]
+      early skip of rewriting module: pandas.core.strings.accessor [assertion]
+      early skip of rewriting module: pandas.core.strings.base [assertion]
+      early skip of rewriting module: pandas.core.strings.object_array [assertion]
+      early skip of rewriting module: pandas.io [assertion]
+      early skip of rewriting module: pandas.io.formats [assertion]
+      early skip of rewriting module: pandas.io.formats.console [assertion]
+      early skip of rewriting module: pandas.core.arrays.datetimes [assertion]
+      early skip of rewriting module: pandas.core.arrays.datetimelike [assertion]
+      early skip of rewriting module: pandas.tseries [assertion]
+      early skip of rewriting module: pandas.tseries.frequencies [assertion]
+      early skip of rewriting module: pandas.core.arrays._ranges [assertion]
+      early skip of rewriting module: pandas.core.arrays.integer [assertion]
+      early skip of rewriting module: pandas.core.arrays.numeric [assertion]
+      early skip of rewriting module: pandas.core.tools [assertion]
+      early skip of rewriting module: pandas.core.tools.numeric [assertion]
+      early skip of rewriting module: pandas.tseries.offsets [assertion]
+      early skip of rewriting module: pandas.core.arrays.floating [assertion]
+      early skip of rewriting module: pandas.core.arrays.interval [assertion]
+      early skip of rewriting module: pandas.core.indexes [assertion]
+      early skip of rewriting module: pandas.core.indexes.base [assertion]
+      early skip of rewriting module: pandas._libs.index [assertion]
+      early skip of rewriting module: pandas._libs.join [assertion]
+      early skip of rewriting module: pandas.core.dtypes.concat [assertion]
+      early skip of rewriting module: pandas.core.arrays.sparse [assertion]
+      early skip of rewriting module: pandas.core.arrays.sparse.accessor [assertion]
+      early skip of rewriting module: pandas.core.arrays.sparse.array [assertion]
+      early skip of rewriting module: pandas._libs.sparse [assertion]
+      early skip of rewriting module: pandas.core.arrays.sparse.dtype [assertion]
+      early skip of rewriting module: pandas.io.formats.printing [assertion]
+      early skip of rewriting module: pandas.core.array_algos.putmask [assertion]
+      early skip of rewriting module: pandas.core.indexes.frozen [assertion]
+      early skip of rewriting module: pandas.core.arrays.numpy_ [assertion]
+      early skip of rewriting module: pandas.core.arrays.period [assertion]
+      early skip of rewriting module: pandas.core.arrays.string_ [assertion]
+      early skip of rewriting module: pandas.core.arrays.string_arrow [assertion]
+      early skip of rewriting module: pandas.core.arrays.timedeltas [assertion]
+      early skip of rewriting module: pandas.core.flags [assertion]
+      early skip of rewriting module: pandas.core.groupby [assertion]
+      early skip of rewriting module: pandas.core.groupby.generic [assertion]
+      early skip of rewriting module: pandas._libs.reduction [assertion]
+      early skip of rewriting module: pandas.core.aggregation [assertion]
+      early skip of rewriting module: pandas.core.indexes.api [assertion]
+      early skip of rewriting module: pandas.core.indexes.category [assertion]
+      early skip of rewriting module: pandas.core.indexes.extension [assertion]
+      early skip of rewriting module: pandas.core.indexes.datetimes [assertion]
+      early skip of rewriting module: pandas.core.indexes.datetimelike [assertion]
+      early skip of rewriting module: pandas.core.indexes.numeric [assertion]
+      early skip of rewriting module: pandas.core.tools.timedeltas [assertion]
+      early skip of rewriting module: pandas.core.tools.times [assertion]
+      early skip of rewriting module: pandas.core.indexes.interval [assertion]
+      early skip of rewriting module: pandas.core.indexes.multi [assertion]
+      early skip of rewriting module: pandas.core.indexes.timedeltas [assertion]
+      early skip of rewriting module: pandas.core.indexes.period [assertion]
+      early skip of rewriting module: pandas.core.indexes.range [assertion]
+      early skip of rewriting module: pandas.core.apply [assertion]
+      early skip of rewriting module: pandas.core.frame [assertion]
+      early skip of rewriting module: pandas.core.generic [assertion]
+      early skip of rewriting module: pandas.core.indexing [assertion]
+      early skip of rewriting module: pandas._libs.indexing [assertion]
+      early skip of rewriting module: pandas.core.describe [assertion]
+      early skip of rewriting module: pandas.core.reshape [assertion]
+      early skip of rewriting module: pandas.core.reshape.concat [assertion]
+      early skip of rewriting module: pandas.core.internals [assertion]
+      early skip of rewriting module: pandas.core.internals.api [assertion]
+      early skip of rewriting module: pandas._libs.internals [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pandas.core.internals.blocks [assertion]
+      early skip of rewriting module: pandas._libs.writers [assertion]
+      early skip of rewriting module: pandas.core.array_algos.quantile [assertion]
+      early skip of rewriting module: pandas.core.array_algos.replace [assertion]
+      early skip of rewriting module: pandas.core.internals.array_manager [assertion]
+      early skip of rewriting module: pandas.core.internals.base [assertion]
+      early skip of rewriting module: pandas.core.internals.concat [assertion]
+      early skip of rewriting module: pandas.core.internals.managers [assertion]
+      early skip of rewriting module: pandas.core.internals.ops [assertion]
+      early skip of rewriting module: pandas.io.formats.format [assertion]
+      early skip of rewriting module: pandas.io.common [assertion]
+      early skip of rewriting module: dataclasses [assertion]
+      early skip of rewriting module: pandas.core.internals.construction [assertion]
+      early skip of rewriting module: pandas.core.shared_docs [assertion]
+      early skip of rewriting module: pandas.core.window [assertion]
+      early skip of rewriting module: pandas.core.window.ewm [assertion]
+      early skip of rewriting module: pandas._libs.window [assertion]
+      early skip of rewriting module: pandas._libs.window.aggregations [assertion]
+      early skip of rewriting module: pandas.core.util.numba_ [assertion]
+      early skip of rewriting module: pandas.core.window.common [assertion]
+      early skip of rewriting module: pandas.core.window.doc [assertion]
+      early skip of rewriting module: pandas.core.window.indexers [assertion]
+      early skip of rewriting module: pandas._libs.window.indexers [assertion]
+      early skip of rewriting module: pandas.core.window.numba_ [assertion]
+      early skip of rewriting module: pandas.core.window.online [assertion]
+      early skip of rewriting module: pandas.core.window.rolling [assertion]
+      early skip of rewriting module: pandas.core.window.expanding [assertion]
+      early skip of rewriting module: pandas.core.reshape.melt [assertion]
+      early skip of rewriting module: pandas.core.reshape.util [assertion]
+      early skip of rewriting module: pandas.core.series [assertion]
+      early skip of rewriting module: pandas._libs.reshape [assertion]
+      early skip of rewriting module: pandas.core.indexes.accessors [assertion]
+      early skip of rewriting module: pandas.core.tools.datetimes [assertion]
+      early skip of rewriting module: pandas.arrays [assertion]
+      early skip of rewriting module: pandas.plotting [assertion]
+      early skip of rewriting module: pandas.plotting._core [assertion]
+      early skip of rewriting module: pandas.plotting._misc [assertion]
+      early skip of rewriting module: pandas.io.formats.info [assertion]
+      early skip of rewriting module: pandas.core.groupby.base [assertion]
+      early skip of rewriting module: pandas.core.groupby.groupby [assertion]
+      early skip of rewriting module: pandas._libs.groupby [assertion]
+      early skip of rewriting module: pandas.core.groupby.numba_ [assertion]
+      early skip of rewriting module: pandas.core.groupby.ops [assertion]
+      early skip of rewriting module: pandas.core.groupby.grouper [assertion]
+      early skip of rewriting module: pandas.core.groupby.categorical [assertion]
+      early skip of rewriting module: pandas.tseries.api [assertion]
+      early skip of rewriting module: pandas.core.computation.api [assertion]
+      early skip of rewriting module: pandas.core.computation.eval [assertion]
+      early skip of rewriting module: pandas.core.computation.engines [assertion]
+      early skip of rewriting module: pandas.core.computation.align [assertion]
+      early skip of rewriting module: pandas.core.computation.common [assertion]
+      early skip of rewriting module: pandas.core.computation.expr [assertion]
+      early skip of rewriting module: pandas.core.computation.ops [assertion]
+      early skip of rewriting module: pandas.core.computation.scope [assertion]
+      early skip of rewriting module: pandas.compat.chainmap [assertion]
+      early skip of rewriting module: pandas.core.computation.parsing [assertion]
+      early skip of rewriting module: pandas.core.reshape.api [assertion]
+      early skip of rewriting module: pandas.core.reshape.merge [assertion]
+      early skip of rewriting module: pandas.core.reshape.pivot [assertion]
+      early skip of rewriting module: pandas.core.reshape.reshape [assertion]
+      early skip of rewriting module: pandas.core.reshape.tile [assertion]
+      early skip of rewriting module: pandas.api [assertion]
+      early skip of rewriting module: pandas.api.extensions [assertion]
+      early skip of rewriting module: pandas.api.indexers [assertion]
+      early skip of rewriting module: pandas.api.types [assertion]
+      early skip of rewriting module: pandas.core.dtypes.api [assertion]
+      early skip of rewriting module: pandas.util._print_versions [assertion]
+      early skip of rewriting module: pandas.io.api [assertion]
+      early skip of rewriting module: pandas.io.clipboards [assertion]
+      early skip of rewriting module: pandas.io.excel [assertion]
+      early skip of rewriting module: pandas.io.excel._base [assertion]
+      early skip of rewriting module: pandas._libs.parsers [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: pandas.io.excel._util [assertion]
+      early skip of rewriting module: pandas.io.parsers [assertion]
+      early skip of rewriting module: pandas.io.parsers.readers [assertion]
+      early skip of rewriting module: pandas.io.parsers.base_parser [assertion]
+      early skip of rewriting module: pandas.io.date_converters [assertion]
+      early skip of rewriting module: pandas.io.parsers.c_parser_wrapper [assertion]
+      early skip of rewriting module: pandas.io.parsers.python_parser [assertion]
+      early skip of rewriting module: pandas.io.excel._odfreader [assertion]
+      early skip of rewriting module: pandas.io.excel._openpyxl [assertion]
+      early skip of rewriting module: pandas.io.excel._pyxlsb [assertion]
+      early skip of rewriting module: pandas.io.excel._xlrd [assertion]
+      early skip of rewriting module: pandas.io.excel._odswriter [assertion]
+      early skip of rewriting module: pandas._libs.json [assertion]
+      early skip of rewriting module: pandas.io.formats.excel [assertion]
+      early skip of rewriting module: pandas.io.formats._color_data [assertion]
+      early skip of rewriting module: pandas.io.formats.css [assertion]
+      early skip of rewriting module: pandas.io.excel._xlsxwriter [assertion]
+      early skip of rewriting module: pandas.io.excel._xlwt [assertion]
+      early skip of rewriting module: pandas.io.feather_format [assertion]
+      early skip of rewriting module: pandas.io.gbq [assertion]
+      early skip of rewriting module: pandas.io.html [assertion]
+      early skip of rewriting module: pandas.io.json [assertion]
+      early skip of rewriting module: pandas.io.json._json [assertion]
+      early skip of rewriting module: pandas.io.json._normalize [assertion]
+      early skip of rewriting module: pandas.io.json._table_schema [assertion]
+      early skip of rewriting module: pandas.io.orc [assertion]
+      early skip of rewriting module: pandas.io.parquet [assertion]
+      early skip of rewriting module: pandas.io.pickle [assertion]
+      early skip of rewriting module: pandas.compat.pickle_compat [assertion]
+      early skip of rewriting module: pandas.io.pytables [assertion]
+      early skip of rewriting module: pandas.core.computation.pytables [assertion]
+      early skip of rewriting module: pandas.io.sas [assertion]
+      early skip of rewriting module: pandas.io.sas.sasreader [assertion]
+      early skip of rewriting module: pandas.io.spss [assertion]
+      early skip of rewriting module: pandas.io.sql [assertion]
+      early skip of rewriting module: pandas.io.stata [assertion]
+      early skip of rewriting module: pandas.io.xml [assertion]
+      early skip of rewriting module: pandas.util._tester [assertion]
+      early skip of rewriting module: pandas.testing [assertion]
+      early skip of rewriting module: pandas._testing [assertion]
+      early skip of rewriting module: pandas._testing._io [assertion]
+      early skip of rewriting module: pandas._testing._random [assertion]
+      early skip of rewriting module: pandas._testing.contexts [assertion]
+      early skip of rewriting module: pandas._testing._warnings [assertion]
+      early skip of rewriting module: pandas._testing.asserters [assertion]
+      early skip of rewriting module: pandas._libs.testing [assertion]
+      early skip of rewriting module: cmath [assertion]
+      early skip of rewriting module: pandas._testing.compat [assertion]
+      early skip of rewriting module: pandas._version [assertion]
+      early skip of rewriting module: rows [assertion]
+      early skip of rewriting module: rows.plugins [assertion]
+      early skip of rewriting module: rows.plugins.plugin_json [assertion]
+      early skip of rewriting module: rows.fields [assertion]
+      early skip of rewriting module: rows.plugins.utils [assertion]
+      early skip of rewriting module: rows.table [assertion]
+      early skip of rewriting module: rows.plugins.dicts [assertion]
+      early skip of rewriting module: rows.plugins.plugin_csv [assertion]
+      early skip of rewriting module: unicodecsv [assertion]
+      early skip of rewriting module: unicodecsv.py3 [assertion]
+      early skip of rewriting module: rows.plugins.txt [assertion]
+      early skip of rewriting module: rows.plugins.plugin_html [assertion]
+      early skip of rewriting module: HTMLParser [assertion]
+      early skip of rewriting module: html [assertion]
+      early skip of rewriting module: html.entities [assertion]
+      early skip of rewriting module: html.parser [assertion]
+      early skip of rewriting module: _markupbase [assertion]
+      early skip of rewriting module: lxml [assertion]
+      early skip of rewriting module: rows.plugins.xpath [assertion]
+      early skip of rewriting module: HTMLParser [assertion]
+      early skip of rewriting module: lxml [assertion]
+      early skip of rewriting module: rows.plugins.ods [assertion]
+      early skip of rewriting module: lxml [assertion]
+      early skip of rewriting module: rows.plugins.sqlite [assertion]
+      early skip of rewriting module: sqlite3 [assertion]
+      early skip of rewriting module: sqlite3.dbapi2 [assertion]
+      early skip of rewriting module: _sqlite3 [assertion]
+      early skip of rewriting module: rows.plugins.xls [assertion]
+      early skip of rewriting module: xlrd [assertion]
+      early skip of rewriting module: rows.plugins.xlsx [assertion]
+      early skip of rewriting module: openpyxl [assertion]
+      early skip of rewriting module: rows.plugins.plugin_parquet [assertion]
+      early skip of rewriting module: parquet [assertion]
+      early skip of rewriting module: rows.operations [assertion]
+      early skip of rewriting module: rows.localization [assertion]
+      matched marked file 'hypothesis.extra' (from 'hypothesis') [assertion]
+      find_module called for: hypothesis.extra [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/extra/__init__.py [assertion]
+      matched marked file 'hypothesis.extra.pandas' (from 'hypothesis') [assertion]
+      find_module called for: hypothesis.extra.pandas [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/extra/pandas/__init__.py [assertion]
+      matched marked file 'hypothesis.extra.pandas.impl' (from 'hypothesis') [assertion]
+      find_module called for: hypothesis.extra.pandas.impl [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/extra/pandas/impl.py [assertion]
+      matched marked file 'hypothesis.extra.numpy' (from 'hypothesis') [assertion]
+      find_module called for: hypothesis.extra.numpy [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/extra/numpy.py [assertion]
+      matched marked file 'hypothesis.extra._array_helpers' (from 'hypothesis') [assertion]
+      find_module called for: hypothesis.extra._array_helpers [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/extra/_array_helpers.py [assertion]
+      early skip of rewriting module: dalex [assertion]
+      early skip of rewriting module: dalex.datasets [assertion]
+      early skip of rewriting module: dalex.datasets._load [assertion]
+      early skip of rewriting module: dalex._explainer [assertion]
+      early skip of rewriting module: dalex._explainer.object [assertion]
+      early skip of rewriting module: dalex.model_explanations [assertion]
+      early skip of rewriting module: dalex.model_explanations._aggregated_profiles [assertion]
+      early skip of rewriting module: dalex.model_explanations._aggregated_profiles.object [assertion]
+      early skip of rewriting module: plotly [assertion]
+      early skip of rewriting module: _plotly_utils [assertion]
+      early skip of rewriting module: _plotly_utils.importers [assertion]
+      early skip of rewriting module: plotly.express [assertion]
+      early skip of rewriting module: plotly.optional_imports [assertion]
+      early skip of rewriting module: _plotly_utils.optional_imports [assertion]
+      early skip of rewriting module: plotly.express._imshow [assertion]
+      early skip of rewriting module: plotly.graph_objs [assertion]
+      early skip of rewriting module: _plotly_utils.basevalidators [assertion]
+      early skip of rewriting module: PIL [assertion]
+      early skip of rewriting module: PIL._version [assertion]
+      early skip of rewriting module: plotly.express._core [assertion]
+      early skip of rewriting module: plotly.io [assertion]
+      early skip of rewriting module: plotly.io._templates [assertion]
+      early skip of rewriting module: pkgutil [assertion]
+      early skip of rewriting module: plotly.express._special_inputs [assertion]
+      early skip of rewriting module: plotly.express.trendline_functions [assertion]
+      early skip of rewriting module: plotly.colors [assertion]
+      early skip of rewriting module: _plotly_utils.colors [assertion]
+      early skip of rewriting module: _plotly_utils.exceptions [assertion]
+      early skip of rewriting module: _plotly_utils.colors.qualitative [assertion]
+      early skip of rewriting module: _plotly_utils.colors._swatches [assertion]
+      early skip of rewriting module: _plotly_utils.colors.colorbrewer [assertion]
+      early skip of rewriting module: _plotly_utils.colors.carto [assertion]
+      early skip of rewriting module: _plotly_utils.colors.sequential [assertion]
+      early skip of rewriting module: _plotly_utils.colors.plotlyjs [assertion]
+      early skip of rewriting module: _plotly_utils.colors.cmocean [assertion]
+      early skip of rewriting module: _plotly_utils.colors.diverging [assertion]
+      early skip of rewriting module: _plotly_utils.colors.cyclical [assertion]
+      early skip of rewriting module: plotly.subplots [assertion]
+      early skip of rewriting module: plotly.graph_objs._scatter [assertion]
+      early skip of rewriting module: plotly.basedatatypes [assertion]
+      early skip of rewriting module: _plotly_utils.utils [assertion]
+      early skip of rewriting module: plotly.shapeannotation [assertion]
+      early skip of rewriting module: plotly.graph_objs._scattergl [assertion]
+      early skip of rewriting module: plotly.graph_objs._bar [assertion]
+      early skip of rewriting module: plotly.graph_objs._funnel [assertion]
+      early skip of rewriting module: plotly.graph_objs._box [assertion]
+      early skip of rewriting module: plotly.graph_objs._violin [assertion]
+      early skip of rewriting module: plotly.graph_objs._histogram [assertion]
+      early skip of rewriting module: plotly.graph_objs._histogram2d [assertion]
+      early skip of rewriting module: plotly.graph_objs._histogram2dcontour [assertion]
+      early skip of rewriting module: plotly.express.imshow_utils [assertion]
+      early skip of rewriting module: plotly.utils [assertion]
+      early skip of rewriting module: _plotly_utils.data_utils [assertion]
+      early skip of rewriting module: _plotly_utils.png [assertion]
+      early skip of rewriting module: PIL.Image [assertion]
+      early skip of rewriting module: defusedxml [assertion]
+      early skip of rewriting module: PIL.ImageMode [assertion]
+      early skip of rewriting module: PIL.TiffTags [assertion]
+      early skip of rewriting module: PIL._binary [assertion]
+      early skip of rewriting module: PIL._util [assertion]
+      early skip of rewriting module: PIL._imaging [assertion]
+      early skip of rewriting module: cffi [assertion]
+      early skip of rewriting module: xarray [assertion]
+      early skip of rewriting module: plotly.express._chart_types [assertion]
+      early skip of rewriting module: plotly.express._doc [assertion]
+      early skip of rewriting module: plotly.express.data [assertion]
+      early skip of rewriting module: plotly.data [assertion]
+      early skip of rewriting module: plotly.express.colors [assertion]
+      early skip of rewriting module: dalex.model_explanations._aggregated_profiles.checks [assertion]
+      early skip of rewriting module: dalex.model_explanations._aggregated_profiles.utils [assertion]
+      early skip of rewriting module: tqdm [assertion]
+      early skip of rewriting module: tqdm._monitor [assertion]
+      early skip of rewriting module: tqdm._tqdm_pandas [assertion]
+      early skip of rewriting module: tqdm.cli [assertion]
+      early skip of rewriting module: tqdm.std [assertion]
+      early skip of rewriting module: tqdm.utils [assertion]
+      early skip of rewriting module: tqdm.version [assertion]
+      early skip of rewriting module: tqdm._dist_ver [assertion]
+      early skip of rewriting module: tqdm.gui [assertion]
+      early skip of rewriting module: dalex._theme [assertion]
+      early skip of rewriting module: plotly.graph_objects [assertion]
+      early skip of rewriting module: dalex._global_checks [assertion]
+      early skip of rewriting module: pkg_resources [assertion]
+      early skip of rewriting module: plistlib [assertion]
+      early skip of rewriting module: xml.parsers [assertion]
+      early skip of rewriting module: xml.parsers.expat [assertion]
+      early skip of rewriting module: pkg_resources.extern [assertion]
+      early skip of rewriting module: pkg_resources.extern.appdirs [assertion]
+      early skip of rewriting module: pkg_resources._vendor [assertion]
+      early skip of rewriting module: pkg_resources._vendor.appdirs [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging [assertion]
+      early skip of rewriting module: pkg_resources._vendor.packaging [assertion]
+      early skip of rewriting module: pkg_resources._vendor.packaging.__about__ [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.version [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging._structures [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging._typing [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.specifiers [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging._compat [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.utils [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.requirements [assertion]
+      early skip of rewriting module: pkg_resources.extern.pyparsing [assertion]
+      early skip of rewriting module: pkg_resources._vendor.pyparsing [assertion]
+      early skip of rewriting module: pkg_resources.extern.packaging.markers [assertion]
+      early skip of rewriting module: sysconfig [assertion]
+      early skip of rewriting module: _osx_support [assertion]
+      early skip of rewriting module: _sysconfigdata__darwin_darwin [assertion]
+      early skip of rewriting module: dalex._global_utils [assertion]
+      early skip of rewriting module: dalex._explanation [assertion]
+      early skip of rewriting module: dalex.model_explanations._model_performance [assertion]
+      early skip of rewriting module: dalex.model_explanations._model_performance.object [assertion]
+      early skip of rewriting module: dalex.model_explanations._model_performance.plot [assertion]
+      early skip of rewriting module: dalex.model_explanations._model_performance.utils [assertion]
+      early skip of rewriting module: dalex.model_explanations._variable_importance [assertion]
+      early skip of rewriting module: dalex.model_explanations._variable_importance.object [assertion]
+      early skip of rewriting module: dalex.model_explanations._variable_importance.checks [assertion]
+      early skip of rewriting module: dalex.model_explanations._variable_importance.loss_functions [assertion]
+      early skip of rewriting module: dalex.model_explanations._variable_importance.plot [assertion]
+      early skip of rewriting module: dalex.model_explanations._variable_importance.utils [assertion]
+      early skip of rewriting module: multiprocessing [assertion]
+      early skip of rewriting module: multiprocessing.context [assertion]
+      early skip of rewriting module: multiprocessing.process [assertion]
+      early skip of rewriting module: multiprocessing.reduction [assertion]
+      early skip of rewriting module: dalex.model_explanations._residual_diagnostics [assertion]
+      early skip of rewriting module: dalex.model_explanations._residual_diagnostics.object [assertion]
+      early skip of rewriting module: dalex.model_explanations._residual_diagnostics.checks [assertion]
+      early skip of rewriting module: dalex.predict_explanations [assertion]
+      early skip of rewriting module: dalex.predict_explanations._break_down [assertion]
+      early skip of rewriting module: dalex.predict_explanations._break_down.object [assertion]
+      early skip of rewriting module: dalex.predict_explanations._break_down.checks [assertion]
+      early skip of rewriting module: dalex.predict_explanations._break_down.plot [assertion]
+      early skip of rewriting module: dalex.predict_explanations._break_down.utils [assertion]
+      early skip of rewriting module: dalex.predict_explanations._ceteris_paribus [assertion]
+      early skip of rewriting module: dalex.predict_explanations._ceteris_paribus.object [assertion]
+      early skip of rewriting module: dalex.predict_explanations._ceteris_paribus.checks [assertion]
+      early skip of rewriting module: dalex.predict_explanations._ceteris_paribus.utils [assertion]
+      early skip of rewriting module: distutils [assertion]
+      early skip of rewriting module: distutils.version [assertion]
+      early skip of rewriting module: dalex.predict_explanations._ceteris_paribus.plot [assertion]
+      early skip of rewriting module: dalex.predict_explanations._shap [assertion]
+      early skip of rewriting module: dalex.predict_explanations._shap.object [assertion]
+      early skip of rewriting module: dalex.predict_explanations._shap.checks [assertion]
+      early skip of rewriting module: dalex.predict_explanations._shap.plot [assertion]
+      early skip of rewriting module: dalex.predict_explanations._shap.utils [assertion]
+      early skip of rewriting module: dalex.wrappers [assertion]
+      early skip of rewriting module: dalex.wrappers._shap [assertion]
+      early skip of rewriting module: dalex.wrappers._shap.object [assertion]
+      early skip of rewriting module: dalex.wrappers._shap.checks [assertion]
+      early skip of rewriting module: dalex.fairness [assertion]
+      early skip of rewriting module: dalex.fairness._group_fairness [assertion]
+      early skip of rewriting module: dalex.fairness._group_fairness.object [assertion]
+      early skip of rewriting module: dalex.fairness._group_fairness.checks [assertion]
+      early skip of rewriting module: dalex.fairness._basics [assertion]
+      early skip of rewriting module: dalex.fairness._basics.exceptions [assertion]
+      early skip of rewriting module: dalex._explainer.helper [assertion]
+      early skip of rewriting module: dalex.fairness._group_fairness.plot [assertion]
+      early skip of rewriting module: dalex.fairness._group_fairness.utils [assertion]
+      early skip of rewriting module: dalex.fairness._basics.checks [assertion]
+      early skip of rewriting module: dalex.fairness._basics._base_objects [assertion]
+      early skip of rewriting module: dalex.fairness._group_fairness.mitigation [assertion]
+      early skip of rewriting module: dalex._explainer.checks [assertion]
+      early skip of rewriting module: dalex._explainer.yhat [assertion]
+      early skip of rewriting module: dalex._explainer.utils [assertion]
+      early skip of rewriting module: dalex.arena [assertion]
+      early skip of rewriting module: dalex.arena.object [assertion]
+      early skip of rewriting module: webbrowser [assertion]
+      early skip of rewriting module: dalex.arena.server [assertion]
+      early skip of rewriting module: dalex.arena.params [assertion]
+      early skip of rewriting module: dalex.arena.static [assertion]
+      early skip of rewriting module: dalex.arena._resource_manager [assertion]
+      early skip of rewriting module: dalex.arena._resource [assertion]
+      early skip of rewriting module: dalex.arena._option_base [assertion]
+      early skip of rewriting module: dalex.arena.resources [assertion]
+      early skip of rewriting module: dalex.arena.resources._shapley_values_resource [assertion]
+      early skip of rewriting module: dalex.arena.resources._dataset_shapley_values_resource [assertion]
+      early skip of rewriting module: dalex.arena._plots_manager [assertion]
+      early skip of rewriting module: dalex.arena.plots [assertion]
+      early skip of rewriting module: dalex.arena.plots._break_down_container [assertion]
+      early skip of rewriting module: dalex.arena._plot_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._shapley_values_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._feature_importance_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._partial_dependence_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._accumulated_dependence_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._ceteris_paribus_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._metrics_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._roc_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._fairness_check_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._shapley_values_dependence_container [assertion]
+      early skip of rewriting module: dalex.arena.plots._shapley_values_variable_importance_container [assertion]
+      early skip of rewriting module: dalex.aspect [assertion]
+      early skip of rewriting module: dalex.aspect.object [assertion]
+      early skip of rewriting module: dalex.aspect._model_aspect_importance [assertion]
+      early skip of rewriting module: dalex.aspect._model_aspect_importance.object [assertion]
+      early skip of rewriting module: dalex.aspect.utils [assertion]
+      early skip of rewriting module: dalex.aspect.checks [assertion]
+      early skip of rewriting module: dalex.aspect._model_aspect_importance.plot [assertion]
+      early skip of rewriting module: dalex.aspect._model_aspect_importance.checks [assertion]
+      early skip of rewriting module: dalex.aspect._predict_aspect_importance [assertion]
+      early skip of rewriting module: dalex.aspect._predict_aspect_importance.object [assertion]
+      early skip of rewriting module: dalex.aspect._predict_aspect_importance.checks [assertion]
+      early skip of rewriting module: dalex.aspect._predict_aspect_importance.utils [assertion]
+      early skip of rewriting module: dalex.aspect._predict_aspect_importance.plot [assertion]
+      early skip of rewriting module: dalex.aspect._model_triplot [assertion]
+      early skip of rewriting module: dalex.aspect._model_triplot.object [assertion]
+      early skip of rewriting module: dalex.aspect._model_triplot.checks [assertion]
+      early skip of rewriting module: dalex.aspect._model_triplot.plot [assertion]
+      early skip of rewriting module: dalex.aspect._model_triplot.utils [assertion]
+      early skip of rewriting module: dalex.aspect._predict_triplot [assertion]
+      early skip of rewriting module: dalex.aspect._predict_triplot.object [assertion]
+      early skip of rewriting module: dalex.aspect._predict_triplot.checks [assertion]
+      early skip of rewriting module: dalex.aspect._predict_triplot.plot [assertion]
+      early skip of rewriting module: dalex.aspect._predict_triplot.utils [assertion]
+      early skip of rewriting module: dalex.aspect.plot [assertion]
+      early skip of rewriting module: plotly.figure_factory [assertion]
+      early skip of rewriting module: plotly.figure_factory._2d_density [assertion]
+      early skip of rewriting module: plotly.exceptions [assertion]
+      early skip of rewriting module: plotly.graph_objs.graph_objs [assertion]
+      early skip of rewriting module: plotly.graph_objs.bar [assertion]
+      early skip of rewriting module: plotly.graph_objs.barpolar [assertion]
+      early skip of rewriting module: plotly.graph_objs.box [assertion]
+      early skip of rewriting module: plotly.graph_objs.candlestick [assertion]
+      early skip of rewriting module: plotly.graph_objs.carpet [assertion]
+      early skip of rewriting module: plotly.graph_objs.choropleth [assertion]
+      early skip of rewriting module: plotly.graph_objs.choroplethmapbox [assertion]
+      early skip of rewriting module: plotly.graph_objs.cone [assertion]
+      early skip of rewriting module: plotly.graph_objs.contour [assertion]
+      early skip of rewriting module: plotly.graph_objs.contourcarpet [assertion]
+      early skip of rewriting module: plotly.graph_objs.densitymapbox [assertion]
+      early skip of rewriting module: plotly.graph_objs.funnel [assertion]
+      early skip of rewriting module: plotly.graph_objs.funnelarea [assertion]
+      early skip of rewriting module: plotly.graph_objs.heatmap [assertion]
+      early skip of rewriting module: plotly.graph_objs.heatmapgl [assertion]
+      early skip of rewriting module: plotly.graph_objs.histogram [assertion]
+      early skip of rewriting module: plotly.graph_objs.histogram2d [assertion]
+      early skip of rewriting module: plotly.graph_objs.histogram2dcontour [assertion]
+      early skip of rewriting module: plotly.graph_objs.icicle [assertion]
+      early skip of rewriting module: plotly.graph_objs.image [assertion]
+      early skip of rewriting module: plotly.graph_objs.indicator [assertion]
+      early skip of rewriting module: plotly.graph_objs.isosurface [assertion]
+      early skip of rewriting module: plotly.graph_objs.layout [assertion]
+      early skip of rewriting module: plotly.graph_objs.mesh3d [assertion]
+      early skip of rewriting module: plotly.graph_objs.ohlc [assertion]
+      early skip of rewriting module: plotly.graph_objs.parcats [assertion]
+      early skip of rewriting module: plotly.graph_objs.parcoords [assertion]
+      early skip of rewriting module: plotly.graph_objs.pie [assertion]
+      early skip of rewriting module: plotly.graph_objs.pointcloud [assertion]
+      early skip of rewriting module: plotly.graph_objs.sankey [assertion]
+      early skip of rewriting module: plotly.graph_objs.scatter [assertion]
+      early skip of rewriting module: plotly.graph_objs.scatter3d [assertion]
+      early skip of rewriting module: plotly.graph_objs.scattercarpet [assertion]
+      early skip of rewriting module: plotly.graph_objs.scattergeo [assertion]
+      early skip of rewriting module: plotly.graph_objs.scattergl [assertion]
+      early skip of rewriting module: plotly.graph_objs.scattermapbox [assertion]
+      early skip of rewriting module: plotly.graph_objs.scatterpolar [assertion]
+      early skip of rewriting module: plotly.graph_objs.scatterpolargl [assertion]
+      early skip of rewriting module: plotly.graph_objs.scattersmith [assertion]
+      early skip of rewriting module: plotly.graph_objs.scatterternary [assertion]
+      early skip of rewriting module: plotly.graph_objs.splom [assertion]
+      early skip of rewriting module: plotly.graph_objs.streamtube [assertion]
+      early skip of rewriting module: plotly.graph_objs.sunburst [assertion]
+      early skip of rewriting module: plotly.graph_objs.surface [assertion]
+      early skip of rewriting module: plotly.graph_objs.table [assertion]
+      early skip of rewriting module: plotly.graph_objs.treemap [assertion]
+      early skip of rewriting module: plotly.graph_objs.violin [assertion]
+      early skip of rewriting module: plotly.graph_objs.volume [assertion]
+      early skip of rewriting module: plotly.graph_objs.waterfall [assertion]
+      early skip of rewriting module: plotly.graph_objs._barpolar [assertion]
+      early skip of rewriting module: plotly.graph_objs._candlestick [assertion]
+      early skip of rewriting module: plotly.graph_objs._carpet [assertion]
+      early skip of rewriting module: plotly.graph_objs._choropleth [assertion]
+      early skip of rewriting module: plotly.graph_objs._choroplethmapbox [assertion]
+      early skip of rewriting module: plotly.graph_objs._cone [assertion]
+      early skip of rewriting module: plotly.graph_objs._contour [assertion]
+      early skip of rewriting module: plotly.graph_objs._contourcarpet [assertion]
+      early skip of rewriting module: plotly.graph_objs._densitymapbox [assertion]
+      early skip of rewriting module: plotly.graph_objs._deprecations [assertion]
+      early skip of rewriting module: plotly.graph_objs._figure [assertion]
+      early skip of rewriting module: plotly.graph_objs._frame [assertion]
+      early skip of rewriting module: plotly.graph_objs._funnelarea [assertion]
+      early skip of rewriting module: plotly.graph_objs._heatmap [assertion]
+      early skip of rewriting module: plotly.graph_objs._heatmapgl [assertion]
+      early skip of rewriting module: plotly.graph_objs._icicle [assertion]
+      early skip of rewriting module: plotly.graph_objs._image [assertion]
+      early skip of rewriting module: plotly.graph_objs._indicator [assertion]
+      early skip of rewriting module: plotly.graph_objs._isosurface [assertion]
+      early skip of rewriting module: plotly.graph_objs._layout [assertion]
+      early skip of rewriting module: plotly.graph_objs._mesh3d [assertion]
+      early skip of rewriting module: plotly.graph_objs._ohlc [assertion]
+      early skip of rewriting module: plotly.graph_objs._parcats [assertion]
+      early skip of rewriting module: plotly.graph_objs._parcoords [assertion]
+      early skip of rewriting module: plotly.graph_objs._pie [assertion]
+      early skip of rewriting module: plotly.graph_objs._pointcloud [assertion]
+      early skip of rewriting module: plotly.graph_objs._sankey [assertion]
+      early skip of rewriting module: plotly.graph_objs._scatter3d [assertion]
+      early skip of rewriting module: plotly.graph_objs._scattercarpet [assertion]
+      early skip of rewriting module: plotly.graph_objs._scattergeo [assertion]
+      early skip of rewriting module: plotly.graph_objs._scattermapbox [assertion]
+      early skip of rewriting module: plotly.graph_objs._scatterpolar [assertion]
+      early skip of rewriting module: plotly.graph_objs._scatterpolargl [assertion]
+      early skip of rewriting module: plotly.graph_objs._scattersmith [assertion]
+      early skip of rewriting module: plotly.graph_objs._scatterternary [assertion]
+      early skip of rewriting module: plotly.graph_objs._splom [assertion]
+      early skip of rewriting module: plotly.graph_objs._streamtube [assertion]
+      early skip of rewriting module: plotly.graph_objs._sunburst [assertion]
+      early skip of rewriting module: plotly.graph_objs._surface [assertion]
+      early skip of rewriting module: plotly.graph_objs._table [assertion]
+      early skip of rewriting module: plotly.graph_objs._treemap [assertion]
+      early skip of rewriting module: plotly.graph_objs._volume [assertion]
+      early skip of rewriting module: plotly.graph_objs._waterfall [assertion]
+      early skip of rewriting module: ipywidgets [assertion]
+      early skip of rewriting module: plotly.missing_ipywidgets [assertion]
+      early skip of rewriting module: ipywidgets [assertion]
+      early skip of rewriting module: plotly.figure_factory._annotated_heatmap [assertion]
+      early skip of rewriting module: plotly.figure_factory.utils [assertion]
+      early skip of rewriting module: plotly.validators [assertion]
+      early skip of rewriting module: plotly.validators.heatmap [assertion]
+      early skip of rewriting module: plotly.validators.heatmap._colorscale [assertion]
+      early skip of rewriting module: plotly.figure_factory._bullet [assertion]
+      early skip of rewriting module: plotly.figure_factory._candlestick [assertion]
+      early skip of rewriting module: plotly.figure_factory._ohlc [assertion]
+      early skip of rewriting module: plotly.figure_factory._dendrogram [assertion]
+      early skip of rewriting module: scipy [assertion]
+      early skip of rewriting module: scipy._lib [assertion]
+      early skip of rewriting module: scipy._lib._testutils [assertion]
+      early skip of rewriting module: scipy._lib.deprecation [assertion]
+      early skip of rewriting module: scipy.__config__ [assertion]
+      early skip of rewriting module: scipy.version [assertion]
+      early skip of rewriting module: scipy._distributor_init [assertion]
+      early skip of rewriting module: scipy._lib._pep440 [assertion]
+      early skip of rewriting module: scipy._lib._ccallback [assertion]
+      early skip of rewriting module: scipy._lib._ccallback_c [assertion]
+      early skip of rewriting module: scipy.cluster [assertion]
+      early skip of rewriting module: scipy.cluster.vq [assertion]
+      early skip of rewriting module: scipy._lib._util [assertion]
+      early skip of rewriting module: scipy.spatial [assertion]
+      early skip of rewriting module: scipy.spatial.kdtree [assertion]
+      early skip of rewriting module: scipy.spatial.ckdtree [assertion]
+      early skip of rewriting module: scipy.sparse [assertion]
+      early skip of rewriting module: scipy.sparse.base [assertion]
+      early skip of rewriting module: scipy.sparse.sputils [assertion]
+      early skip of rewriting module: scipy.sparse.csr [assertion]
+      early skip of rewriting module: scipy.sparse._sparsetools [assertion]
+      early skip of rewriting module: scipy.sparse.compressed [assertion]
+      early skip of rewriting module: scipy.sparse.data [assertion]
+      early skip of rewriting module: scipy.sparse.dia [assertion]
+      early skip of rewriting module: scipy.sparse._index [assertion]
+      early skip of rewriting module: scipy.sparse.csc [assertion]
+      early skip of rewriting module: scipy.sparse.lil [assertion]
+      early skip of rewriting module: scipy.sparse._csparsetools [assertion]
+      early skip of rewriting module: scipy.sparse.dok [assertion]
+      early skip of rewriting module: scipy.sparse.coo [assertion]
+      early skip of rewriting module: scipy.sparse.bsr [assertion]
+      early skip of rewriting module: scipy.sparse.construct [assertion]
+      early skip of rewriting module: scipy.sparse.extract [assertion]
+      early skip of rewriting module: scipy.sparse._matrix_io [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._laplacian [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._shortest_path [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._validation [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._tools [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._traversal [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._min_spanning_tree [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._flow [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._matching [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._reordering [assertion]
+      early skip of rewriting module: scipy.spatial.qhull [assertion]
+      early skip of rewriting module: scipy._lib.messagestream [assertion]
+      early skip of rewriting module: scipy.spatial._spherical_voronoi [assertion]
+      early skip of rewriting module: scipy.spatial._voronoi [assertion]
+      early skip of rewriting module: scipy.spatial._plotutils [assertion]
+      early skip of rewriting module: scipy._lib.decorator [assertion]
+      early skip of rewriting module: scipy.spatial._procrustes [assertion]
+      early skip of rewriting module: scipy.linalg [assertion]
+      early skip of rewriting module: scipy.linalg.misc [assertion]
+      early skip of rewriting module: scipy.linalg.blas [assertion]
+      early skip of rewriting module: scipy.linalg._fblas [assertion]
+      early skip of rewriting module: scipy.linalg._cblas [assertion]
+      early skip of rewriting module: scipy.linalg._fblas_64 [assertion]
+      early skip of rewriting module: scipy.linalg.lapack [assertion]
+      early skip of rewriting module: scipy.linalg._flapack [assertion]
+      early skip of rewriting module: scipy.linalg._clapack [assertion]
+      early skip of rewriting module: scipy.linalg._flapack_64 [assertion]
+      early skip of rewriting module: scipy.linalg.basic [assertion]
+      early skip of rewriting module: scipy.linalg.flinalg [assertion]
+      early skip of rewriting module: scipy.linalg._flinalg [assertion]
+      early skip of rewriting module: scipy.linalg.decomp [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_svd [assertion]
+      early skip of rewriting module: scipy.linalg._solve_toeplitz [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_lu [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_ldl [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_cholesky [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_qr [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_qz [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_schur [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_polar [assertion]
+      early skip of rewriting module: scipy.linalg.matfuncs [assertion]
+      early skip of rewriting module: scipy.linalg.special_matrices [assertion]
+      early skip of rewriting module: scipy.linalg._expm_frechet [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs_sqrtm [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs_sqrtm_triu [assertion]
+      early skip of rewriting module: scipy.linalg._solvers [assertion]
+      early skip of rewriting module: scipy.linalg._procrustes [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_update [assertion]
+      early skip of rewriting module: scipy.linalg.cython_blas [assertion]
+      early skip of rewriting module: scipy.linalg.cython_lapack [assertion]
+      early skip of rewriting module: scipy.linalg._sketches [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_cossin [assertion]
+      early skip of rewriting module: scipy.spatial._geometric_slerp [assertion]
+      early skip of rewriting module: scipy.spatial.distance [assertion]
+      early skip of rewriting module: scipy.spatial._distance_wrap [assertion]
+      early skip of rewriting module: scipy.spatial._hausdorff [assertion]
+      early skip of rewriting module: scipy.special [assertion]
+      early skip of rewriting module: scipy.special.sf_error [assertion]
+      early skip of rewriting module: scipy.special._ufuncs [assertion]
+      early skip of rewriting module: scipy.special._ufuncs_cxx [assertion]
+      early skip of rewriting module: scipy.special._basic [assertion]
+      early skip of rewriting module: scipy.special.specfun [assertion]
+      early skip of rewriting module: scipy.special.orthogonal [assertion]
+      early skip of rewriting module: scipy.special._comb [assertion]
+      early skip of rewriting module: scipy.special._logsumexp [assertion]
+      early skip of rewriting module: scipy.special.spfun_stats [assertion]
+      early skip of rewriting module: scipy.special._ellip_harm [assertion]
+      early skip of rewriting module: scipy.special._ellip_harm_2 [assertion]
+      early skip of rewriting module: scipy.special._lambertw [assertion]
+      early skip of rewriting module: scipy.special._spherical_bessel [assertion]
+      early skip of rewriting module: scipy.spatial._distance_pybind [assertion]
+      early skip of rewriting module: scipy.spatial.transform [assertion]
+      early skip of rewriting module: scipy.spatial.transform.rotation [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation_groups [assertion]
+      early skip of rewriting module: scipy.constants [assertion]
+      early skip of rewriting module: scipy.constants.codata [assertion]
+      early skip of rewriting module: scipy.constants.constants [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation_spline [assertion]
+      early skip of rewriting module: scipy.cluster._vq [assertion]
+      early skip of rewriting module: scipy.cluster.hierarchy [assertion]
+      early skip of rewriting module: scipy.cluster._hierarchy [assertion]
+      early skip of rewriting module: scipy.cluster._optimal_leaf_ordering [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: scipy._lib._disjoint_set [assertion]
+      early skip of rewriting module: plotly.figure_factory._distplot [assertion]
+      early skip of rewriting module: scipy.stats [assertion]
+      early skip of rewriting module: scipy.stats.stats [assertion]
+      early skip of rewriting module: scipy.ndimage [assertion]
+      early skip of rewriting module: scipy.ndimage.filters [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_support [assertion]
+      early skip of rewriting module: scipy.ndimage._nd_image [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_docstrings [assertion]
+      early skip of rewriting module: scipy._lib.doccer [assertion]
+      early skip of rewriting module: scipy.ndimage.fourier [assertion]
+      early skip of rewriting module: scipy.ndimage.interpolation [assertion]
+      early skip of rewriting module: scipy.ndimage.measurements [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_label [assertion]
+      early skip of rewriting module: scipy.ndimage.morphology [assertion]
+      early skip of rewriting module: scipy.stats.distributions [assertion]
+      early skip of rewriting module: scipy.stats._distn_infrastructure [assertion]
+      early skip of rewriting module: scipy.stats._distr_params [assertion]
+      early skip of rewriting module: scipy.optimize [assertion]
+      early skip of rewriting module: scipy.optimize.optimize [assertion]
+      early skip of rewriting module: scipy.optimize.linesearch [assertion]
+      early skip of rewriting module: scipy.optimize.minpack2 [assertion]
+      early skip of rewriting module: scipy.optimize._numdiff [assertion]
+      early skip of rewriting module: scipy.sparse.linalg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve.iterative [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve._iterative [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.interface [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve.utils [assertion]
+      early skip of rewriting module: scipy._lib._threadsafety [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve.minres [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve.lgmres [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve._gcrotmk [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve.lsqr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve.lsmr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.dsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.dsolve.linsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.dsolve._superlu [assertion]
+      early skip of rewriting module: scikits [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.dsolve._add_newdocs [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen.arpack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen.arpack.arpack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen.arpack._arpack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen.lobpcg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen.lobpcg.lobpcg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.matfuncs [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._expm_multiply [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._onenormest [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._norm [assertion]
+      early skip of rewriting module: scipy.optimize._group_columns [assertion]
+      early skip of rewriting module: scipy.optimize._differentiable_functions [assertion]
+      early skip of rewriting module: scipy.optimize._hessian_update_strategy [assertion]
+      early skip of rewriting module: scipy.optimize._minimize [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_dogleg [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_ncg [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_krylov [assertion]
+      early skip of rewriting module: scipy.optimize._trlib [assertion]
+      early skip of rewriting module: scipy.optimize._trlib._trlib [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_exact [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.minimize_trustregion_constr [assertion]
+      early skip of rewriting module: scipy.optimize._constraints [assertion]
+      early skip of rewriting module: numpy.testing [assertion]
+      early skip of rewriting module: numpy.testing._private [assertion]
+      early skip of rewriting module: numpy.testing._private.utils [assertion]
+      early skip of rewriting module: numpy.testing._private.decorators [assertion]
+      early skip of rewriting module: numpy.testing._private.nosetester [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.equality_constrained_sqp [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.projections [assertion]
+      early skip of rewriting module: sksparse [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.qp_subproblem [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.canonical_constraint [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.tr_interior_point [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.report [assertion]
+      early skip of rewriting module: scipy.optimize.lbfgsb [assertion]
+      early skip of rewriting module: scipy.optimize._lbfgsb [assertion]
+      early skip of rewriting module: scipy.optimize.tnc [assertion]
+      early skip of rewriting module: scipy.optimize.moduleTNC [assertion]
+      early skip of rewriting module: scipy.optimize.cobyla [assertion]
+      early skip of rewriting module: scipy.optimize._cobyla [assertion]
+      early skip of rewriting module: scipy.optimize.slsqp [assertion]
+      early skip of rewriting module: scipy.optimize._slsqp [assertion]
+      early skip of rewriting module: scipy.optimize._root [assertion]
+      early skip of rewriting module: scipy.optimize.minpack [assertion]
+      early skip of rewriting module: scipy.optimize._minpack [assertion]
+      early skip of rewriting module: scipy.optimize._lsq [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.least_squares [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.trf [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.common [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.dogbox [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.lsq_linear [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.trf_linear [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.givens_elimination [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.bvls [assertion]
+      early skip of rewriting module: scipy.optimize._spectral [assertion]
+      early skip of rewriting module: scipy.optimize.nonlin [assertion]
+      early skip of rewriting module: scipy.optimize._root_scalar [assertion]
+      early skip of rewriting module: scipy.optimize.zeros [assertion]
+      early skip of rewriting module: scipy.optimize._zeros [assertion]
+      early skip of rewriting module: scipy.optimize._nnls [assertion]
+      early skip of rewriting module: scipy.optimize.__nnls [assertion]
+      early skip of rewriting module: scipy.optimize._basinhopping [assertion]
+      early skip of rewriting module: scipy.optimize._linprog [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_highs [assertion]
+      early skip of rewriting module: scipy.optimize._highs [assertion]
+      early skip of rewriting module: scipy.optimize._highs._highs_wrapper [assertion]
+      early skip of rewriting module: scipy.optimize._highs._highs_constants [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_ip [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_util [assertion]
+      early skip of rewriting module: scipy.optimize._remove_redundancy [assertion]
+      early skip of rewriting module: scipy.linalg.interpolative [assertion]
+      early skip of rewriting module: scipy.linalg._interpolative_backend [assertion]
+      early skip of rewriting module: scipy.linalg._interpolative [assertion]
+      early skip of rewriting module: sksparse [assertion]
+      early skip of rewriting module: scikits [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_simplex [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_rs [assertion]
+      early skip of rewriting module: scipy.optimize._bglu_dense [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_doc [assertion]
+      early skip of rewriting module: scipy.optimize._lsap [assertion]
+      early skip of rewriting module: scipy.optimize._lsap_module [assertion]
+      early skip of rewriting module: scipy.optimize._differentialevolution [assertion]
+      early skip of rewriting module: scipy.optimize._shgo [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib.triangulation [assertion]
+      early skip of rewriting module: scipy.optimize._dual_annealing [assertion]
+      early skip of rewriting module: scipy.optimize._qap [assertion]
+      early skip of rewriting module: scipy.integrate [assertion]
+      early skip of rewriting module: scipy.integrate._quadrature [assertion]
+      early skip of rewriting module: scipy.integrate.odepack [assertion]
+      early skip of rewriting module: scipy.integrate._odepack [assertion]
+      early skip of rewriting module: scipy.integrate.quadpack [assertion]
+      early skip of rewriting module: scipy.integrate._quadpack [assertion]
+      early skip of rewriting module: scipy.integrate._ode [assertion]
+      early skip of rewriting module: scipy.integrate.vode [assertion]
+      early skip of rewriting module: scipy.integrate._dop [assertion]
+      early skip of rewriting module: scipy.integrate.lsoda [assertion]
+      early skip of rewriting module: scipy.integrate._bvp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.ivp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.bdf [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.common [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.base [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.radau [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.rk [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.dop853_coefficients [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.lsoda [assertion]
+      early skip of rewriting module: scipy.integrate._quad_vec [assertion]
+      early skip of rewriting module: scipy.misc [assertion]
+      early skip of rewriting module: scipy.misc.doccer [assertion]
+      early skip of rewriting module: scipy.misc.common [assertion]
+      early skip of rewriting module: scipy.stats._constants [assertion]
+      early skip of rewriting module: scipy.stats._continuous_distns [assertion]
+      early skip of rewriting module: scipy.interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate.interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate.fitpack [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack_impl [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack [assertion]
+      early skip of rewriting module: scipy.interpolate.dfitpack [assertion]
+      early skip of rewriting module: scipy.interpolate._bsplines [assertion]
+      early skip of rewriting module: scipy.interpolate._bspl [assertion]
+      early skip of rewriting module: scipy.interpolate.polyint [assertion]
+      early skip of rewriting module: scipy.interpolate._ppoly [assertion]
+      early skip of rewriting module: scipy.interpolate.fitpack2 [assertion]
+      early skip of rewriting module: scipy.interpolate.interpnd [assertion]
+      early skip of rewriting module: scipy.interpolate.rbf [assertion]
+      early skip of rewriting module: scipy.interpolate._rbfinterp [assertion]
+      early skip of rewriting module: scipy.interpolate._rbfinterp_pythran [assertion]
+      early skip of rewriting module: scipy.interpolate._cubic [assertion]
+      early skip of rewriting module: scipy.interpolate.ndgriddata [assertion]
+      early skip of rewriting module: scipy.interpolate._pade [assertion]
+      early skip of rewriting module: scipy.stats._stats [assertion]
+      early skip of rewriting module: scipy.special.cython_special [assertion]
+      early skip of rewriting module: scipy.stats._rvs_sampling [assertion]
+      early skip of rewriting module: scipy.stats._tukeylambda_stats [assertion]
+      early skip of rewriting module: scipy.stats._ksstats [assertion]
+      early skip of rewriting module: scipy.stats._boost [assertion]
+      early skip of rewriting module: scipy.stats._boost.beta_ufunc [assertion]
+      early skip of rewriting module: scipy.stats._boost.binom_ufunc [assertion]
+      early skip of rewriting module: scipy.stats._boost.nbinom_ufunc [assertion]
+      early skip of rewriting module: scipy.stats._discrete_distns [assertion]
+      early skip of rewriting module: scipy.stats.biasedurn [assertion]
+      early skip of rewriting module: scipy.stats._entropy [assertion]
+      early skip of rewriting module: scipy.stats.mstats_basic [assertion]
+      early skip of rewriting module: scipy.stats._stats_mstats_common [assertion]
+      early skip of rewriting module: scipy._lib._bunch [assertion]
+      early skip of rewriting module: scipy.stats._hypotests [assertion]
+      early skip of rewriting module: scipy.stats._wilcoxon_data [assertion]
+      early skip of rewriting module: scipy.stats.morestats [assertion]
+      early skip of rewriting module: scipy.stats.statlib [assertion]
+      early skip of rewriting module: scipy.stats.contingency [assertion]
+      early skip of rewriting module: scipy.stats._relative_risk [assertion]
+      early skip of rewriting module: scipy.stats._common [assertion]
+      early skip of rewriting module: scipy.stats._crosstab [assertion]
+      early skip of rewriting module: scipy.stats._binomtest [assertion]
+      early skip of rewriting module: scipy.stats._binned_statistic [assertion]
+      early skip of rewriting module: scipy.stats.kde [assertion]
+      early skip of rewriting module: scipy.stats.mvn [assertion]
+      early skip of rewriting module: scipy.stats.mstats [assertion]
+      early skip of rewriting module: scipy.stats.mstats_extras [assertion]
+      early skip of rewriting module: scipy.stats.qmc [assertion]
+      early skip of rewriting module: scipy.stats._qmc [assertion]
+      early skip of rewriting module: scipy.stats._sobol [assertion]
+      early skip of rewriting module: scipy.stats._qmc_cy [assertion]
+      early skip of rewriting module: scipy.stats._multivariate [assertion]
+      early skip of rewriting module: scipy.stats._bootstrap [assertion]
+      find_module called for: scipy.stats._page_trend_test [assertion]
+      matched test file '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/scipy/stats/_page_trend_test.py' [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/scipy/stats/_page_trend_test.py [assertion]
+      early skip of rewriting module: scipy.stats._mannwhitneyu [assertion]
+      early skip of rewriting module: plotly.figure_factory._facet_grid [assertion]
+      early skip of rewriting module: plotly.figure_factory._gantt [assertion]
+      early skip of rewriting module: plotly.figure_factory._quiver [assertion]
+      early skip of rewriting module: plotly.figure_factory._scatterplot [assertion]
+      early skip of rewriting module: plotly.figure_factory._streamline [assertion]
+      early skip of rewriting module: plotly.figure_factory._table [assertion]
+      early skip of rewriting module: plotly.figure_factory._trisurf [assertion]
+      early skip of rewriting module: plotly.figure_factory._violin [assertion]
+      early skip of rewriting module: plotly.figure_factory._county_choropleth [assertion]
+      early skip of rewriting module: shapely [assertion]
+      early skip of rewriting module: shapefile [assertion]
+      early skip of rewriting module: geopandas [assertion]
+      early skip of rewriting module: _plotly_geo [assertion]
+      early skip of rewriting module: plotly.figure_factory._hexbin_mapbox [assertion]
+      early skip of rewriting module: skimage [assertion]
+      early skip of rewriting module: sklearn [assertion]
+      early skip of rewriting module: sklearn._config [assertion]
+      early skip of rewriting module: sklearn._distributor_init [assertion]
+      early skip of rewriting module: sklearn.__check_build [assertion]
+      early skip of rewriting module: sklearn.__check_build._check_build [assertion]
+      early skip of rewriting module: sklearn.base [assertion]
+      early skip of rewriting module: sklearn.utils [assertion]
+      early skip of rewriting module: sklearn.utils.murmurhash [assertion]
+      early skip of rewriting module: sklearn.utils.class_weight [assertion]
+      early skip of rewriting module: sklearn.utils._joblib [assertion]
+      early skip of rewriting module: joblib [assertion]
+      early skip of rewriting module: joblib.memory [assertion]
+      early skip of rewriting module: pydoc [assertion]
+      early skip of rewriting module: joblib.hashing [assertion]
+      early skip of rewriting module: joblib.func_inspect [assertion]
+      early skip of rewriting module: joblib.logger [assertion]
+      early skip of rewriting module: joblib.disk [assertion]
+      early skip of rewriting module: multiprocessing.util [assertion]
+      early skip of rewriting module: joblib._store_backends [assertion]
+      early skip of rewriting module: joblib.backports [assertion]
+      early skip of rewriting module: joblib.numpy_pickle [assertion]
+      early skip of rewriting module: joblib.compressor [assertion]
+      early skip of rewriting module: lz4 [assertion]
+      early skip of rewriting module: joblib.numpy_pickle_utils [assertion]
+      early skip of rewriting module: joblib.numpy_pickle_compat [assertion]
+      early skip of rewriting module: joblib.parallel [assertion]
+      early skip of rewriting module: queue [assertion]
+      early skip of rewriting module: _queue [assertion]
+      early skip of rewriting module: joblib._multiprocessing_helpers [assertion]
+      early skip of rewriting module: _multiprocessing [assertion]
+      early skip of rewriting module: joblib._parallel_backends [assertion]
+      early skip of rewriting module: joblib.my_exceptions [assertion]
+      early skip of rewriting module: joblib._deprecated_my_exceptions [assertion]
+      early skip of rewriting module: joblib.pool [assertion]
+      early skip of rewriting module: joblib._memmapping_reducer [assertion]
+      early skip of rewriting module: joblib.externals [assertion]
+      early skip of rewriting module: joblib.externals.loky [assertion]
+      early skip of rewriting module: joblib.externals.loky._base [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.context [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.process [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.compat [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.compat_posix [assertion]
+      early skip of rewriting module: multiprocessing.connection [assertion]
+      early skip of rewriting module: _winapi [assertion]
+      early skip of rewriting module: multiprocessing.synchronize [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.reduction [assertion]
+      early skip of rewriting module: cPickle [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend._posix_reduction [assertion]
+      early skip of rewriting module: joblib.externals.cloudpickle [assertion]
+      early skip of rewriting module: joblib.externals.cloudpickle.cloudpickle [assertion]
+      early skip of rewriting module: joblib.externals.cloudpickle.compat [assertion]
+      early skip of rewriting module: typing_extensions [assertion]
+      early skip of rewriting module: joblib.externals.cloudpickle.cloudpickle_fast [assertion]
+      early skip of rewriting module: joblib.externals.loky.reusable_executor [assertion]
+      early skip of rewriting module: joblib.externals.loky.process_executor [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.queues [assertion]
+      early skip of rewriting module: multiprocessing.queues [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.utils [assertion]
+      early skip of rewriting module: psutil [assertion]
+      early skip of rewriting module: joblib.externals.loky.initializers [assertion]
+      early skip of rewriting module: concurrent.futures.process [assertion]
+      early skip of rewriting module: psutil [assertion]
+      early skip of rewriting module: joblib.externals.loky.cloudpickle_wrapper [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.resource_tracker [assertion]
+      early skip of rewriting module: joblib.externals.loky.backend.spawn [assertion]
+      early skip of rewriting module: runpy [assertion]
+      early skip of rewriting module: multiprocessing.pool [assertion]
+      early skip of rewriting module: joblib.executor [assertion]
+      early skip of rewriting module: sklearn.exceptions [assertion]
+      early skip of rewriting module: sklearn.utils.deprecation [assertion]
+      early skip of rewriting module: sklearn.utils.fixes [assertion]
+      early skip of rewriting module: threadpoolctl [assertion]
+      early skip of rewriting module: ctypes.util [assertion]
+      early skip of rewriting module: ctypes.macholib [assertion]
+      early skip of rewriting module: ctypes.macholib.dyld [assertion]
+      early skip of rewriting module: ctypes.macholib.framework [assertion]
+      early skip of rewriting module: ctypes.macholib.dylib [assertion]
+      early skip of rewriting module: sklearn.externals [assertion]
+      early skip of rewriting module: sklearn.externals._packaging [assertion]
+      early skip of rewriting module: sklearn.externals._packaging.version [assertion]
+      early skip of rewriting module: sklearn.externals._packaging._structures [assertion]
+      early skip of rewriting module: sklearn.utils._estimator_html_repr [assertion]
+      early skip of rewriting module: sklearn.utils.validation [assertion]
+      early skip of rewriting module: sklearn.utils._tags [assertion]
+      early skip of rewriting module: sklearn.utils._show_versions [assertion]
+      early skip of rewriting module: sklearn.utils._openmp_helpers [assertion]
+      early skip of rewriting module: sklearn.compose [assertion]
+      early skip of rewriting module: sklearn.compose._column_transformer [assertion]
+      early skip of rewriting module: sklearn.pipeline [assertion]
+      early skip of rewriting module: sklearn.utils.metaestimators [assertion]
+      early skip of rewriting module: sklearn.preprocessing [assertion]
+      early skip of rewriting module: sklearn.preprocessing._function_transformer [assertion]
+      early skip of rewriting module: sklearn.preprocessing._data [assertion]
+      early skip of rewriting module: sklearn.utils.extmath [assertion]
+      early skip of rewriting module: sklearn.utils._logistic_sigmoid [assertion]
+      early skip of rewriting module: sklearn.utils.sparsefuncs_fast [assertion]
+      early skip of rewriting module: sklearn.utils.sparsefuncs [assertion]
+      early skip of rewriting module: sklearn.preprocessing._encoders [assertion]
+      early skip of rewriting module: sklearn.utils._mask [assertion]
+      early skip of rewriting module: sklearn.utils._encode [assertion]
+      early skip of rewriting module: sklearn.preprocessing._label [assertion]
+      early skip of rewriting module: sklearn.utils.multiclass [assertion]
+      early skip of rewriting module: sklearn.preprocessing._discretization [assertion]
+      early skip of rewriting module: sklearn.preprocessing._polynomial [assertion]
+      early skip of rewriting module: sklearn.utils.stats [assertion]
+      early skip of rewriting module: sklearn.preprocessing._csr_polynomial_expansion [assertion]
+      early skip of rewriting module: sklearn.compose._target [assertion]
+      early skip of rewriting module: sklearn.linear_model [assertion]
+      early skip of rewriting module: sklearn.linear_model._base [assertion]
+      early skip of rewriting module: sklearn.utils._seq_dataset [assertion]
+      early skip of rewriting module: sklearn.utils._random [assertion]
+      early skip of rewriting module: sklearn.linear_model._bayes [assertion]
+      early skip of rewriting module: sklearn.linear_model._least_angle [assertion]
+      early skip of rewriting module: sklearn.utils.arrayfuncs [assertion]
+      early skip of rewriting module: sklearn.utils._cython_blas [assertion]
+      early skip of rewriting module: sklearn.utils.collections [assertion]
+      early skip of rewriting module: sklearn.utils.enum [assertion]
+      early skip of rewriting module: sklearn.model_selection [assertion]
+      early skip of rewriting module: sklearn.model_selection._split [assertion]
+      early skip of rewriting module: sklearn.model_selection._validation [assertion]
+      early skip of rewriting module: sklearn.metrics [assertion]
+      early skip of rewriting module: sklearn.metrics._ranking [assertion]
+      early skip of rewriting module: sklearn.metrics._base [assertion]
+      early skip of rewriting module: sklearn.metrics._classification [assertion]
+      early skip of rewriting module: sklearn.metrics.cluster [assertion]
+      early skip of rewriting module: sklearn.metrics.cluster._supervised [assertion]
+      early skip of rewriting module: sklearn.metrics.cluster._expected_mutual_info_fast [assertion]
+      early skip of rewriting module: sklearn.metrics.cluster._unsupervised [assertion]
+      early skip of rewriting module: sklearn.metrics.pairwise [assertion]
+      early skip of rewriting module: sklearn.metrics._pairwise_fast [assertion]
+      early skip of rewriting module: sklearn.metrics.cluster._bicluster [assertion]
+      early skip of rewriting module: sklearn.metrics._regression [assertion]
+      early skip of rewriting module: sklearn._loss [assertion]
+      early skip of rewriting module: sklearn._loss.glm_distribution [assertion]
+      early skip of rewriting module: sklearn.metrics._scorer [assertion]
+      early skip of rewriting module: sklearn.metrics._plot [assertion]
+      early skip of rewriting module: sklearn.metrics._plot.det_curve [assertion]
+      early skip of rewriting module: sklearn.metrics._plot.base [assertion]
+      early skip of rewriting module: sklearn.metrics._plot.roc_curve [assertion]
+      early skip of rewriting module: sklearn.metrics._plot.precision_recall_curve [assertion]
+      early skip of rewriting module: sklearn.metrics._plot.confusion_matrix [assertion]
+      early skip of rewriting module: sklearn.model_selection._search [assertion]
+      early skip of rewriting module: sklearn.utils.random [assertion]
+      early skip of rewriting module: sklearn.linear_model._coordinate_descent [assertion]
+      early skip of rewriting module: sklearn.linear_model._cd_fast [assertion]
+      early skip of rewriting module: sklearn.linear_model._glm [assertion]
+      early skip of rewriting module: sklearn.linear_model._glm.glm [assertion]
+      early skip of rewriting module: sklearn.utils.optimize [assertion]
+      early skip of rewriting module: sklearn.linear_model._glm.link [assertion]
+      early skip of rewriting module: sklearn.linear_model._huber [assertion]
+      early skip of rewriting module: sklearn.linear_model._sgd_fast [assertion]
+      early skip of rewriting module: sklearn.utils._weight_vector [assertion]
+      early skip of rewriting module: sklearn.linear_model._stochastic_gradient [assertion]
+      early skip of rewriting module: sklearn.linear_model._ridge [assertion]
+      early skip of rewriting module: sklearn.linear_model._sag [assertion]
+      early skip of rewriting module: sklearn.linear_model._sag_fast [assertion]
+      early skip of rewriting module: sklearn.linear_model._logistic [assertion]
+      early skip of rewriting module: sklearn.svm [assertion]
+      early skip of rewriting module: sklearn.svm._classes [assertion]
+      early skip of rewriting module: sklearn.svm._base [assertion]
+      early skip of rewriting module: sklearn.svm._libsvm [assertion]
+      early skip of rewriting module: sklearn.svm._liblinear [assertion]
+      early skip of rewriting module: sklearn.svm._libsvm_sparse [assertion]
+      early skip of rewriting module: sklearn.svm._bounds [assertion]
+      early skip of rewriting module: sklearn.linear_model._omp [assertion]
+      early skip of rewriting module: sklearn.linear_model._passive_aggressive [assertion]
+      early skip of rewriting module: sklearn.linear_model._perceptron [assertion]
+      early skip of rewriting module: sklearn.linear_model._quantile [assertion]
+      early skip of rewriting module: sklearn.linear_model._ransac [assertion]
+      early skip of rewriting module: sklearn.linear_model._theil_sen [assertion]
+      matched marked file 'hypothesis.database' (from 'hypothesis') [assertion]
+      find_module called for: hypothesis.database [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/database.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: string
+            obj: <module 'string' from '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/string.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: unittest
+            obj: <module 'unittest' from '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/unittest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: repeat
+            obj: <function repeat at 0x10ae43af0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: pd
+            obj: <module 'pandas' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/pandas/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: pytest
+            obj: <module 'pytest' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: st
+            obj: <module 'hypothesis.strategies' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: rows
+            obj: <module 'rows' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/rows/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: column
+            obj: <class 'hypothesis.extra.pandas.impl.column'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: data_frames
+            obj: <function data_frames at 0x126625160>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: series
+            obj: <function series at 0x126616820>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: builds
+            obj: <function builds at 0x10ac02dc0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: one_of
+            obj: <function one_of at 0x10ab6d280>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: just
+            obj: <function just at 0x10abc1790>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: hypothesis
+            obj: <module 'hypothesis' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: dx
+            obj: <module 'dalex' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/dalex/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: random
+            obj: <module 'random' from '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/random.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: ColumnTransformer
+            obj: <class 'sklearn.compose._column_transformer.ColumnTransformer'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: LogisticRegression
+            obj: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: Pipeline
+            obj: <class 'sklearn.pipeline.Pipeline'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: OneHotEncoder
+            obj: <class 'sklearn.preprocessing._encoders.OneHotEncoder'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: given
+            obj: <function given at 0x10ad2c040>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: settings
+            obj: <class 'hypothesis.settings'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: Verbosity
+            obj: <enum 'Verbosity'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: strategy
+            obj: <module 'hypothesis.strategies' from '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/strategies/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: generateRow
+            obj: <function generateRow at 0x1420860d0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: generateRows
+            obj: <function generateRows at 0x1417d1310>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: generateCasual
+            obj: <function generateCasual at 0x141e19ca0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: generateUniqueRows
+            obj: <function generateUniqueRows at 0x141e19ee0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: generateGroup
+            obj: <function generateGroup at 0x141e19f70>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: generateModel
+            obj: <function generateModel at 0x142086040>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: test_age_casual_fairness
+            obj: <function accept.<locals>.test_age_casual_fairness at 0x14208dc10>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1420988e0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_age_casual_fairness>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: test_sex_casual_fairness
+            obj: <function accept.<locals>.test_sex_casual_fairness at 0x14208dee0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x142098c40>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_sex_casual_fairness>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: addRow
+            obj: <function accept.<locals>.addRow at 0x1420991f0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: test_age_group_fairness
+            obj: <function accept.<locals>.test_age_group_fairness at 0x142099550>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x142098c40>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_age_group_fairness>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module propertytests.py>
+            name: test_sex_group_fairness
+            obj: <function accept.<locals>.test_sex_group_fairness at 0x142099820>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1420988e0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_sex_group_fairness>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'propertytests.py' lenresult=4 outcome='passed'> [hook]
+    genitems <Function test_age_casual_fairness> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_age_casual_fairness>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_sex_casual_fairness> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_sex_casual_fairness>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_age_group_fairness> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_age_group_fairness>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_sex_group_fairness> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_sex_group_fairness>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'propertytests.py' lenresult=4 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x10a585b50>
+          items: [<Function test_age_casual_fairness>, <Function test_sex_casual_fairness>, <Function test_age_group_fairness>, <Function test_sex_group_fairness>]
+      matched marked file 'hypothesis.internal.detection' (from 'hypothesis') [assertion]
+      find_module called for: hypothesis.internal.detection [assertion]
+      found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/detection.py [assertion]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x10a585b50>
+            startdir: /Users/hanatucker/Desktop/modelTrainging
+            items: [<Function test_age_casual_fairness>, <Function test_sex_casual_fairness>, <Function test_age_group_fairness>, <Function test_sex_group_fairness>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+      pytest_warning_captured [hook]
+          warning_message: {message : DeprecationWarning("Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working"), category : 'DeprecationWarning', filename : '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/rows/plugins/utils.py', lineno : 20, line : None}
+          when: collect
+          item: None
+          location: None
+      finish pytest_warning_captured --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : DeprecationWarning("Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working"), category : 'DeprecationWarning', filename : '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/rows/plugins/utils.py', lineno : 20, line : None}
+          nodeid: 
+          when: collect
+          location: None
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_captured [hook]
+          warning_message: {message : DeprecationWarning("Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working"), category : 'DeprecationWarning', filename : '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/rows/table.py', lineno : 20, line : None}
+          when: collect
+          item: None
+          location: None
+      finish pytest_warning_captured --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : DeprecationWarning("Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working"), category : 'DeprecationWarning', filename : '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/rows/table.py', lineno : 20, line : None}
+          nodeid: 
+          when: collect
+          location: None
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_captured [hook]
+          warning_message: {message : DeprecationWarning("Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working"), category : 'DeprecationWarning', filename : '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/rows/table.py', lineno : 20, line : None}
+          when: collect
+          item: None
+          location: None
+      finish pytest_warning_captured --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : DeprecationWarning("Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working"), category : 'DeprecationWarning', filename : '/Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/rows/table.py', lineno : 20, line : None}
+          nodeid: 
+          when: collect
+          location: None
+      finish pytest_warning_recorded --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session modelTrainging exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=4>
+      pytest_runtest_protocol [hook]
+          item: <Function test_age_casual_fairness>
+          nextitem: <Function test_sex_casual_fairness>
+        pytest_runtest_logstart [hook]
+            nodeid: propertytests.py::test_age_casual_fairness
+            location: ('propertytests.py', 170, 'test_age_casual_fairness')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_age_casual_fairness>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_age_casual_fairness>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_age_casual_fairness' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_age_casual_fairness' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_age_casual_fairness' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_age_casual_fairness>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_age_casual_fairness>
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_age_casual_fairness>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 1 == 0\n +  where 1 = <built-in method item of numpy.ndarray object at 0x14223d630>(0)\n +    w...bject at 0x14223d3f0>(0)\n +    where <built-in method item of numpy.ndarray object at 0x14223d3f0> = array([0]).item') tblen=27>>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_age_casual_fairness' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_age_casual_fairness' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_age_casual_fairness' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_age_casual_fairness>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 1 == 0\n +  where 1 = <built-in method item of numpy.ndarray object at 0x14223d630>(0)\n +    w...bject at 0x14223d3f0>(0)\n +    where <built-in method item of numpy.ndarray object at 0x14223d3f0> = array([0]).item') tblen=2>>
+            report: <TestReport 'propertytests.py::test_age_casual_fairness' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_age_casual_fairness>
+            nextitem: <Function test_sex_casual_fairness>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_age_casual_fairness>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_age_casual_fairness' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_age_casual_fairness' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_age_casual_fairness' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: propertytests.py::test_age_casual_fairness
+            location: ('propertytests.py', 170, 'test_age_casual_fairness')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_sex_casual_fairness>
+          nextitem: <Function test_age_group_fairness>
+        pytest_runtest_logstart [hook]
+            nodeid: propertytests.py::test_sex_casual_fairness
+            location: ('propertytests.py', 184, 'test_sex_casual_fairness')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_sex_casual_fairness>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_sex_casual_fairness>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_sex_casual_fairness' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_sex_casual_fairness>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_sex_casual_fairness>
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 0
+                right: 1
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: ==
+                left: 1
+                right: 0
+            finish pytest_assertrepr_compare --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_sex_casual_fairness>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 1 == 0\n +  where 1 = <built-in method item of numpy.ndarray object at 0x14247e990>(0)\n +    w...bject at 0x14247eab0>(0)\n +    where <built-in method item of numpy.ndarray object at 0x14247eab0> = array([0]).item') tblen=27>>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_sex_casual_fairness' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_sex_casual_fairness>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 1 == 0\n +  where 1 = <built-in method item of numpy.ndarray object at 0x14247e990>(0)\n +    w...bject at 0x14247eab0>(0)\n +    where <built-in method item of numpy.ndarray object at 0x14247eab0> = array([0]).item') tblen=2>>
+            report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_sex_casual_fairness>
+            nextitem: <Function test_age_group_fairness>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_sex_casual_fairness>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_sex_casual_fairness' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: propertytests.py::test_sex_casual_fairness
+            location: ('propertytests.py', 184, 'test_sex_casual_fairness')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_age_group_fairness>
+          nextitem: <Function test_sex_group_fairness>
+        pytest_runtest_logstart [hook]
+            nodeid: propertytests.py::test_age_group_fairness
+            location: ('propertytests.py', 218, 'test_age_group_fairness')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_age_group_fairness>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_age_group_fairness>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_age_group_fairness' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_age_group_fairness' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_age_group_fairness' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_age_group_fairness>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_age_group_fairness>
+          early skip of rewriting module: statsmodels [assertion]
+          early skip of rewriting module: statsmodels._version [assertion]
+          early skip of rewriting module: statsmodels.stats [assertion]
+          early skip of rewriting module: statsmodels.tools [assertion]
+          early skip of rewriting module: statsmodels.tools.tools [assertion]
+          early skip of rewriting module: statsmodels.tools.data [assertion]
+          early skip of rewriting module: statsmodels.tools.validation [assertion]
+          early skip of rewriting module: statsmodels.tools.validation.validation [assertion]
+          early skip of rewriting module: statsmodels.tools._testing [assertion]
+          early skip of rewriting module: statsmodels.stats.weightstats [assertion]
+          early skip of rewriting module: statsmodels.tools.decorators [assertion]
+          early skip of rewriting module: statsmodels.tools.sm_exceptions [assertion]
+          early skip of rewriting module: statsmodels.compat [assertion]
+          early skip of rewriting module: statsmodels.compat.python [assertion]
+          early skip of rewriting module: statsmodels.compat.pandas [assertion]
+          early skip of rewriting module: pandas.NumericIndex [assertion]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: <
+                left: 0.6826774127050583
+                right: 0.05
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: <
+                left: 0.6826774127050583
+                right: 0.05
+            finish pytest_assertrepr_compare --> [] [hook]
+            pytest_assertrepr_compare [hook]
+                config: <_pytest.config.Config object at 0x10a585b50>
+                op: <
+                left: 0.6826774127050583
+                right: 0.05
+            finish pytest_assertrepr_compare --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_age_group_fairness>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 0.6826774127050583 < 0.05') tblen=27>>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_age_group_fairness' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_age_group_fairness' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_age_group_fairness' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_age_group_fairness>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('assert 0.6826774127050583 < 0.05') tblen=2>>
+            report: <TestReport 'propertytests.py::test_age_group_fairness' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_age_group_fairness>
+            nextitem: <Function test_sex_group_fairness>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_age_group_fairness>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_age_group_fairness' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_age_group_fairness' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_age_group_fairness' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: propertytests.py::test_age_group_fairness
+            location: ('propertytests.py', 218, 'test_age_group_fairness')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_sex_group_fairness>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: propertytests.py::test_sex_group_fairness
+            location: ('propertytests.py', 237, 'test_sex_group_fairness')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_sex_group_fairness>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_sex_group_fairness>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_sex_group_fairness' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_sex_group_fairness' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_sex_group_fairness' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_sex_group_fairness>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_sex_group_fairness>
+          matched marked file 'hypothesis.internal.conjecture.optimiser' (from 'hypothesis') [assertion]
+          find_module called for: hypothesis.internal.conjecture.optimiser [assertion]
+          found cached rewritten pyc for /Users/hanatucker/Desktop/modelTrainging/venv/lib/python3.8/site-packages/hypothesis/internal/conjecture/optimiser.py [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_sex_group_fairness>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_sex_group_fairness' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_sex_group_fairness' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_sex_group_fairness' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_sex_group_fairness>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_sex_group_fairness>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'propertytests.py::test_sex_group_fairness' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'propertytests.py::test_sex_group_fairness' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'propertytests.py::test_sex_group_fairness' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10a585b50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: propertytests.py::test_sex_group_fairness
+            location: ('propertytests.py', 237, 'test_sex_group_fairness')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session modelTrainging exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=3 testscollected=4>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x10ad3f8e0>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x10a585b50>
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'propertytests.py::test_age_casual_fairness' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x10a585b50>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'propertytests.py::test_sex_casual_fairness' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x10a585b50>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'propertytests.py::test_age_group_fairness' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x10a585b50>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x10a585b50>
+    finish pytest_unconfigure --> [] [hook]

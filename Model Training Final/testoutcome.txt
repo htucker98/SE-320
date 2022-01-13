@@ -1,0 +1,4267 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.2, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
+rootdir: /Users/hanatucker/Desktop/modelTrainging
+plugins: repeat-0.9.1, hypothesis-6.31.3
+collected 400 items
+
+fake.py FF..F.FFF.FFFFF.FFFF.F..FFF.FFFFF.FF.F..FFFFFF.FFFF..FF.F.FFFF.FFFFFFFFFFFFFFF...FF.F..FF...FF.FF..FFFFF.FFFFFF.FFFFFFFFFFFFFFFFFFFFFFF.FFFFFFFFFF.FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.F.FFF.FFFFFF..............F.......F...........................................................F.....F...............FFF...F......FF.......FF...........FF.....F...................................F................
+
+=================================== FAILURES ===================================
+________________________ test_sex_group_fairness[1-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.09794791236116902 < 0.05
+
+fake.py:152: AssertionError
+________________________ test_sex_group_fairness[2-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.8661583254095347 < 0.05
+
+fake.py:152: AssertionError
+________________________ test_sex_group_fairness[5-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.5833204406366634 < 0.05
+
+fake.py:152: AssertionError
+________________________ test_sex_group_fairness[7-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.5930303558098596 < 0.05
+
+fake.py:152: AssertionError
+________________________ test_sex_group_fairness[8-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.06868107628560077 < 0.05
+
+fake.py:152: AssertionError
+________________________ test_sex_group_fairness[9-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.09484486533631187 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[11-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.2003254681308787 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[12-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.32686264468904813 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[13-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.05737669568132762 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[14-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.21277039901797778 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[15-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.3335656249730804 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[17-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.05737669568132762 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[18-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.20969646880781723 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[19-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.07369005820068561 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[20-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.4302874175372403 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[22-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.7691249023598243 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[25-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.07708139772129484 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[26-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.42228675431585605 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[27-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.3927722889191576 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[29-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.1444279906241667 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[30-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.050318923437736196 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[31-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.16240000841968605 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[32-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.7314455700234028 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[33-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.0840837277351673 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[35-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.18707668918950116 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[36-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.05846064351353066 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[38-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.5300983395189706 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[41-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.07106788474178581 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[42-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.11689074393844745 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[43-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.6691140379683892 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[44-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.8606900661873853 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[45-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.24874209173268602 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[46-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.21524497218993466 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[48-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.08521183960333707 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[49-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.8639949919938986 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[50-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.36443136663722464 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[51-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.1330228397489931 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[54-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.4264596480517776 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[55-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.13584552441673742 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[57-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.4546793710959962 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[59-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.10539798923264003 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[60-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.1586483046623931 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[61-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.1829634425475435 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[62-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.3636550446230946 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[64-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.6158833996551012 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[65-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.4938811533921592 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[66-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.8049780822005783 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[67-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.34812480900613363 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[68-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.28034732117970296 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[69-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.08550612805663992 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[70-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.3335656249730804 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[71-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.9905753288309742 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[72-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.14169803369164832 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[73-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.6992256167536206 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[74-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.43055121135124286 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[75-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.16240000841968605 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[76-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.11427002766116398 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[77-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.15752599257687128 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[78-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.14584401095588564 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[82-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.28566511616059787 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[83-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.14139065205559312 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[85-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.20609542851055074 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[88-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.28574466771493034 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[89-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.3018673128106276 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[93-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.3802170523247186 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[94-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.815753692739928 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[96-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.15004078733215778 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[97-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.30004984987710137 < 0.05
+
+fake.py:152: AssertionError
+_______________________ test_sex_group_fairness[100-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        female = []
+        male = []
+        for i in range(0, len(rows)):
+            if (rows.sex[i] == 'male'):
+                male.append(predictions.item(i))
+    
+            if (rows.sex[i] == 'female'):
+                female.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(female, male)[1]
+>       assert (pval < 0.05)
+E       assert 0.3498819204073931 < 0.05
+
+fake.py:152: AssertionError
+________________________ test_age_group_fairness[1-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.10350435478095003 < 0.05
+
+fake.py:171: AssertionError
+________________________ test_age_group_fairness[2-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6939398811898402 < 0.05
+
+fake.py:171: AssertionError
+________________________ test_age_group_fairness[3-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.2913208197909555 < 0.05
+
+fake.py:171: AssertionError
+________________________ test_age_group_fairness[4-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.7692752290980616 < 0.05
+
+fake.py:171: AssertionError
+________________________ test_age_group_fairness[6-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.7287684870745812 < 0.05
+
+fake.py:171: AssertionError
+________________________ test_age_group_fairness[7-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6285728966170637 < 0.05
+
+fake.py:171: AssertionError
+________________________ test_age_group_fairness[8-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.502556904431023 < 0.05
+
+fake.py:171: AssertionError
+________________________ test_age_group_fairness[9-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9556386113052727 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[10-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.07034052251185492 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[11-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.42769889208617506 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[13-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.05241147023096676 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[14-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.37372668915847673 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[15-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.3448246588059003 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[16-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6041555238730303 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[17-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.30025244241455673 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[18-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8318983862117159 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[19-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.24233469442977518 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[20-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6431372766696255 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[21-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.4081379817204731 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[22-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8375052801670251 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[23-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5533823519017051 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[24-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.30515885684022437 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[25-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.2835115476885922 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[26-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8629849106786811 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[27-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.4082231949779951 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[28-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8421658365481759 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[29-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9478129750922727 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[30-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9143154959215757 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[31-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6736557508877767 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[32-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.054581334720212565 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[33-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8415553450419224 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[34-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.09979088056332351 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[35-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9025794343690603 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[37-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6407383818025416 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[38-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.4273831443831926 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[39-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6169714230798783 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[40-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.24396410559155324 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[41-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.37528314811842456 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[42-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6891461138810939 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[43-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.23120025999074956 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[44-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.3562958142892344 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[45-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.24396410559155324 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[46-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5745212908955649 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[48-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9779598094392306 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[49-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.802712859448947 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[50-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8033310304331267 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[51-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9758821316134961 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[52-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5449821477142038 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[53-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.4913568089952013 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[54-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5620518405077191 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[55-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.7823497711140834 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[56-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8421658365481759 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[57-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5740011394064659 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[58-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.7823497711140834 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[59-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.3563348996576332 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[60-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.36570809587797026 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[61-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.7236615370872743 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[62-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.13871959728390398 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[63-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5716190866498794 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[64-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.3639033355579989 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[65-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.7427181751221471 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[66-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9918413593211463 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[67-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.24832230511697384 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[68-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9823922502802429 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[69-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.46692577259908896 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[70-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5804206095365365 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[71-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9871744859237465 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[72-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.7427181751221471 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[73-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.08483774479657043 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[74-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.25793600672914585 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[75-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.2800424783517145 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[76-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.24703967547830286 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[77-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.27656495842622153 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[78-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9778421803539613 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[79-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5833204406366632 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[80-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.24999177708264053 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[81-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9793252798322897 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[82-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.1685847106870727 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[83-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6308387835879535 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[84-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6981690153914435 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[85-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8427422326978505 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[86-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5300983395189706 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[87-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.4849733279319274 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[88-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.15523176906207373 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[90-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.4845384491327327 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[92-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.5260317864344634 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[93-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8661583254095347 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[94-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.4010255243701072 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[96-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.6715309731364871 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[97-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.41717522652518535 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[98-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.17647910219667795 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[99-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.8782333158320081 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_group_fairness[100-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_age_group_fairness():
+        rows = generateGroup()
+        model = generateModel()
+        predictions = model.predict(rows)
+        young = []
+        old = []
+        for i in range(0, len(rows)):
+            if (rows.age[i] <= 50):
+                young.append(predictions.item(i))
+    
+            if (rows.age[i] > 50):
+                old.append(predictions.item(i))
+    
+        # compare distributions
+        from statsmodels.stats.weightstats import ztest as ztest
+        pval = ztest(young, old)[1]
+>       assert (pval < 0.05)
+E       assert 0.9758821316134961 < 0.05
+
+fake.py:171: AssertionError
+_______________________ test_age_casual_fairness[1-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_age_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.age[0] <= 50):
+            y = 35-predictRow.age[0]
+            predictRow.sex[0] = 50+y
+        elif (predictRow.age[0] > 50):
+            y = predictRow.age[0]-50
+            predictRow.sex[0] = y
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 0 == 1
+E        +  where 0 = <built-in method item of numpy.ndarray object at 0x1416ce030>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416ce030> = array([0]).item
+E        +  and   1 = <built-in method item of numpy.ndarray object at 0x1417128d0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1417128d0> = array([1]).item
+
+fake.py:185: AssertionError
+_______________________ test_age_casual_fairness[16-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_age_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.age[0] <= 50):
+            y = 35-predictRow.age[0]
+            predictRow.sex[0] = 50+y
+        elif (predictRow.age[0] > 50):
+            y = predictRow.age[0]-50
+            predictRow.sex[0] = y
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x141613cf0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141613cf0> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x141642ed0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141642ed0> = array([0]).item
+
+fake.py:185: AssertionError
+_______________________ test_age_casual_fairness[24-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_age_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.age[0] <= 50):
+            y = 35-predictRow.age[0]
+            predictRow.sex[0] = 50+y
+        elif (predictRow.age[0] > 50):
+            y = predictRow.age[0]-50
+            predictRow.sex[0] = y
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x1417097b0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1417097b0> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x1416d2e70>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416d2e70> = array([0]).item
+
+fake.py:185: AssertionError
+_______________________ test_age_casual_fairness[84-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_age_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.age[0] <= 50):
+            y = 35-predictRow.age[0]
+            predictRow.sex[0] = 50+y
+        elif (predictRow.age[0] > 50):
+            y = predictRow.age[0]-50
+            predictRow.sex[0] = y
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x1415d9510>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1415d9510> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x14170e150>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x14170e150> = array([0]).item
+
+fake.py:185: AssertionError
+_______________________ test_age_casual_fairness[90-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_age_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.age[0] <= 50):
+            y = 35-predictRow.age[0]
+            predictRow.sex[0] = 50+y
+        elif (predictRow.age[0] > 50):
+            y = predictRow.age[0]-50
+            predictRow.sex[0] = y
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x1416e4db0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416e4db0> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x14172e690>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x14172e690> = array([0]).item
+
+fake.py:185: AssertionError
+_______________________ test_sex_casual_fairness[6-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x141734450>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141734450> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x141720c90>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141720c90> = array([0]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[7-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 0 == 1
+E        +  where 0 = <built-in method item of numpy.ndarray object at 0x1415a6810>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1415a6810> = array([0]).item
+E        +  and   1 = <built-in method item of numpy.ndarray object at 0x141709990>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141709990> = array([1]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[8-100] ________________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 0 == 1
+E        +  where 0 = <built-in method item of numpy.ndarray object at 0x141732db0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141732db0> = array([0]).item
+E        +  and   1 = <built-in method item of numpy.ndarray object at 0x1416e4390>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416e4390> = array([1]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[12-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x141642bd0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141642bd0> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x1416e1270>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416e1270> = array([0]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[19-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 0 == 1
+E        +  where 0 = <built-in method item of numpy.ndarray object at 0x1416d2930>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416d2930> = array([0]).item
+E        +  and   1 = <built-in method item of numpy.ndarray object at 0x1416d20f0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416d20f0> = array([1]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[20-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x1416d2c90>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416d2c90> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x1416e4450>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1416e4450> = array([0]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[28-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x14170e3f0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x14170e3f0> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x141746750>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141746750> = array([0]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[29-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 0 == 1
+E        +  where 0 = <built-in method item of numpy.ndarray object at 0x141746e10>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141746e10> = array([0]).item
+E        +  and   1 = <built-in method item of numpy.ndarray object at 0x141746f90>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141746f90> = array([1]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[41-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x141768e10>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141768e10> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x14172eed0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x14172eed0> = array([0]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[42-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x1415b45d0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1415b45d0> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x141768d50>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141768d50> = array([0]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[48-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 0 == 1
+E        +  where 0 = <built-in method item of numpy.ndarray object at 0x141773990>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141773990> = array([0]).item
+E        +  and   1 = <built-in method item of numpy.ndarray object at 0x1417095d0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1417095d0> = array([1]).item
+
+fake.py:197: AssertionError
+_______________________ test_sex_casual_fairness[84-100] _______________________
+
+    @pytest.mark.repeat(100)
+    def test_sex_casual_fairness():
+        model = generateModel()
+        predictRow = generateRow()
+        predictionA = model.predict(predictRow)
+        if (predictRow.sex[0] == 'male'):
+            predictRow.sex[0] = 'female'
+        elif (predictRow.sex[0] == 'female'):
+            predictRow.sex[0] = 'male'
+        predictionB = model.predict(predictRow)
+>       assert predictionA.item(0) == predictionB.item(0)
+E       assert 1 == 0
+E        +  where 1 = <built-in method item of numpy.ndarray object at 0x1415b45d0>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x1415b45d0> = array([1]).item
+E        +  and   0 = <built-in method item of numpy.ndarray object at 0x141760630>(0)
+E        +    where <built-in method item of numpy.ndarray object at 0x141760630> = array([0]).item
+
+fake.py:197: AssertionError
+============================ Hypothesis Statistics =============================
+=========================== short test summary info ============================
+FAILED fake.py::test_sex_group_fairness[1-100] - assert 0.09794791236116902 <...
+FAILED fake.py::test_sex_group_fairness[2-100] - assert 0.8661583254095347 < ...
+FAILED fake.py::test_sex_group_fairness[5-100] - assert 0.5833204406366634 < ...
+FAILED fake.py::test_sex_group_fairness[7-100] - assert 0.5930303558098596 < ...
+FAILED fake.py::test_sex_group_fairness[8-100] - assert 0.06868107628560077 <...
+FAILED fake.py::test_sex_group_fairness[9-100] - assert 0.09484486533631187 <...
+FAILED fake.py::test_sex_group_fairness[11-100] - assert 0.2003254681308787 <...
+FAILED fake.py::test_sex_group_fairness[12-100] - assert 0.32686264468904813 ...
+FAILED fake.py::test_sex_group_fairness[13-100] - assert 0.05737669568132762 ...
+FAILED fake.py::test_sex_group_fairness[14-100] - assert 0.21277039901797778 ...
+FAILED fake.py::test_sex_group_fairness[15-100] - assert 0.3335656249730804 <...
+FAILED fake.py::test_sex_group_fairness[17-100] - assert 0.05737669568132762 ...
+FAILED fake.py::test_sex_group_fairness[18-100] - assert 0.20969646880781723 ...
+FAILED fake.py::test_sex_group_fairness[19-100] - assert 0.07369005820068561 ...
+FAILED fake.py::test_sex_group_fairness[20-100] - assert 0.4302874175372403 <...
+FAILED fake.py::test_sex_group_fairness[22-100] - assert 0.7691249023598243 <...
+FAILED fake.py::test_sex_group_fairness[25-100] - assert 0.07708139772129484 ...
+FAILED fake.py::test_sex_group_fairness[26-100] - assert 0.42228675431585605 ...
+FAILED fake.py::test_sex_group_fairness[27-100] - assert 0.3927722889191576 <...
+FAILED fake.py::test_sex_group_fairness[29-100] - assert 0.1444279906241667 <...
+FAILED fake.py::test_sex_group_fairness[30-100] - assert 0.050318923437736196...
+FAILED fake.py::test_sex_group_fairness[31-100] - assert 0.16240000841968605 ...
+FAILED fake.py::test_sex_group_fairness[32-100] - assert 0.7314455700234028 <...
+FAILED fake.py::test_sex_group_fairness[33-100] - assert 0.0840837277351673 <...
+FAILED fake.py::test_sex_group_fairness[35-100] - assert 0.18707668918950116 ...
+FAILED fake.py::test_sex_group_fairness[36-100] - assert 0.05846064351353066 ...
+FAILED fake.py::test_sex_group_fairness[38-100] - assert 0.5300983395189706 <...
+FAILED fake.py::test_sex_group_fairness[41-100] - assert 0.07106788474178581 ...
+FAILED fake.py::test_sex_group_fairness[42-100] - assert 0.11689074393844745 ...
+FAILED fake.py::test_sex_group_fairness[43-100] - assert 0.6691140379683892 <...
+FAILED fake.py::test_sex_group_fairness[44-100] - assert 0.8606900661873853 <...
+FAILED fake.py::test_sex_group_fairness[45-100] - assert 0.24874209173268602 ...
+FAILED fake.py::test_sex_group_fairness[46-100] - assert 0.21524497218993466 ...
+FAILED fake.py::test_sex_group_fairness[48-100] - assert 0.08521183960333707 ...
+FAILED fake.py::test_sex_group_fairness[49-100] - assert 0.8639949919938986 <...
+FAILED fake.py::test_sex_group_fairness[50-100] - assert 0.36443136663722464 ...
+FAILED fake.py::test_sex_group_fairness[51-100] - assert 0.1330228397489931 <...
+FAILED fake.py::test_sex_group_fairness[54-100] - assert 0.4264596480517776 <...
+FAILED fake.py::test_sex_group_fairness[55-100] - assert 0.13584552441673742 ...
+FAILED fake.py::test_sex_group_fairness[57-100] - assert 0.4546793710959962 <...
+FAILED fake.py::test_sex_group_fairness[59-100] - assert 0.10539798923264003 ...
+FAILED fake.py::test_sex_group_fairness[60-100] - assert 0.1586483046623931 <...
+FAILED fake.py::test_sex_group_fairness[61-100] - assert 0.1829634425475435 <...
+FAILED fake.py::test_sex_group_fairness[62-100] - assert 0.3636550446230946 <...
+FAILED fake.py::test_sex_group_fairness[64-100] - assert 0.6158833996551012 <...
+FAILED fake.py::test_sex_group_fairness[65-100] - assert 0.4938811533921592 <...
+FAILED fake.py::test_sex_group_fairness[66-100] - assert 0.8049780822005783 <...
+FAILED fake.py::test_sex_group_fairness[67-100] - assert 0.34812480900613363 ...
+FAILED fake.py::test_sex_group_fairness[68-100] - assert 0.28034732117970296 ...
+FAILED fake.py::test_sex_group_fairness[69-100] - assert 0.08550612805663992 ...
+FAILED fake.py::test_sex_group_fairness[70-100] - assert 0.3335656249730804 <...
+FAILED fake.py::test_sex_group_fairness[71-100] - assert 0.9905753288309742 <...
+FAILED fake.py::test_sex_group_fairness[72-100] - assert 0.14169803369164832 ...
+FAILED fake.py::test_sex_group_fairness[73-100] - assert 0.6992256167536206 <...
+FAILED fake.py::test_sex_group_fairness[74-100] - assert 0.43055121135124286 ...
+FAILED fake.py::test_sex_group_fairness[75-100] - assert 0.16240000841968605 ...
+FAILED fake.py::test_sex_group_fairness[76-100] - assert 0.11427002766116398 ...
+FAILED fake.py::test_sex_group_fairness[77-100] - assert 0.15752599257687128 ...
+FAILED fake.py::test_sex_group_fairness[78-100] - assert 0.14584401095588564 ...
+FAILED fake.py::test_sex_group_fairness[82-100] - assert 0.28566511616059787 ...
+FAILED fake.py::test_sex_group_fairness[83-100] - assert 0.14139065205559312 ...
+FAILED fake.py::test_sex_group_fairness[85-100] - assert 0.20609542851055074 ...
+FAILED fake.py::test_sex_group_fairness[88-100] - assert 0.28574466771493034 ...
+FAILED fake.py::test_sex_group_fairness[89-100] - assert 0.3018673128106276 <...
+FAILED fake.py::test_sex_group_fairness[93-100] - assert 0.3802170523247186 <...
+FAILED fake.py::test_sex_group_fairness[94-100] - assert 0.815753692739928 < ...
+FAILED fake.py::test_sex_group_fairness[96-100] - assert 0.15004078733215778 ...
+FAILED fake.py::test_sex_group_fairness[97-100] - assert 0.30004984987710137 ...
+FAILED fake.py::test_sex_group_fairness[100-100] - assert 0.3498819204073931 ...
+FAILED fake.py::test_age_group_fairness[1-100] - assert 0.10350435478095003 <...
+FAILED fake.py::test_age_group_fairness[2-100] - assert 0.6939398811898402 < ...
+FAILED fake.py::test_age_group_fairness[3-100] - assert 0.2913208197909555 < ...
+FAILED fake.py::test_age_group_fairness[4-100] - assert 0.7692752290980616 < ...
+FAILED fake.py::test_age_group_fairness[6-100] - assert 0.7287684870745812 < ...
+FAILED fake.py::test_age_group_fairness[7-100] - assert 0.6285728966170637 < ...
+FAILED fake.py::test_age_group_fairness[8-100] - assert 0.502556904431023 < 0.05
+FAILED fake.py::test_age_group_fairness[9-100] - assert 0.9556386113052727 < ...
+FAILED fake.py::test_age_group_fairness[10-100] - assert 0.07034052251185492 ...
+FAILED fake.py::test_age_group_fairness[11-100] - assert 0.42769889208617506 ...
+FAILED fake.py::test_age_group_fairness[13-100] - assert 0.05241147023096676 ...
+FAILED fake.py::test_age_group_fairness[14-100] - assert 0.37372668915847673 ...
+FAILED fake.py::test_age_group_fairness[15-100] - assert 0.3448246588059003 <...
+FAILED fake.py::test_age_group_fairness[16-100] - assert 0.6041555238730303 <...
+FAILED fake.py::test_age_group_fairness[17-100] - assert 0.30025244241455673 ...
+FAILED fake.py::test_age_group_fairness[18-100] - assert 0.8318983862117159 <...
+FAILED fake.py::test_age_group_fairness[19-100] - assert 0.24233469442977518 ...
+FAILED fake.py::test_age_group_fairness[20-100] - assert 0.6431372766696255 <...
+FAILED fake.py::test_age_group_fairness[21-100] - assert 0.4081379817204731 <...
+FAILED fake.py::test_age_group_fairness[22-100] - assert 0.8375052801670251 <...
+FAILED fake.py::test_age_group_fairness[23-100] - assert 0.5533823519017051 <...
+FAILED fake.py::test_age_group_fairness[24-100] - assert 0.30515885684022437 ...
+FAILED fake.py::test_age_group_fairness[25-100] - assert 0.2835115476885922 <...
+FAILED fake.py::test_age_group_fairness[26-100] - assert 0.8629849106786811 <...
+FAILED fake.py::test_age_group_fairness[27-100] - assert 0.4082231949779951 <...
+FAILED fake.py::test_age_group_fairness[28-100] - assert 0.8421658365481759 <...
+FAILED fake.py::test_age_group_fairness[29-100] - assert 0.9478129750922727 <...
+FAILED fake.py::test_age_group_fairness[30-100] - assert 0.9143154959215757 <...
+FAILED fake.py::test_age_group_fairness[31-100] - assert 0.6736557508877767 <...
+FAILED fake.py::test_age_group_fairness[32-100] - assert 0.054581334720212565...
+FAILED fake.py::test_age_group_fairness[33-100] - assert 0.8415553450419224 <...
+FAILED fake.py::test_age_group_fairness[34-100] - assert 0.09979088056332351 ...
+FAILED fake.py::test_age_group_fairness[35-100] - assert 0.9025794343690603 <...
+FAILED fake.py::test_age_group_fairness[37-100] - assert 0.6407383818025416 <...
+FAILED fake.py::test_age_group_fairness[38-100] - assert 0.4273831443831926 <...
+FAILED fake.py::test_age_group_fairness[39-100] - assert 0.6169714230798783 <...
+FAILED fake.py::test_age_group_fairness[40-100] - assert 0.24396410559155324 ...
+FAILED fake.py::test_age_group_fairness[41-100] - assert 0.37528314811842456 ...
+FAILED fake.py::test_age_group_fairness[42-100] - assert 0.6891461138810939 <...
+FAILED fake.py::test_age_group_fairness[43-100] - assert 0.23120025999074956 ...
+FAILED fake.py::test_age_group_fairness[44-100] - assert 0.3562958142892344 <...
+FAILED fake.py::test_age_group_fairness[45-100] - assert 0.24396410559155324 ...
+FAILED fake.py::test_age_group_fairness[46-100] - assert 0.5745212908955649 <...
+FAILED fake.py::test_age_group_fairness[48-100] - assert 0.9779598094392306 <...
+FAILED fake.py::test_age_group_fairness[49-100] - assert 0.802712859448947 < ...
+FAILED fake.py::test_age_group_fairness[50-100] - assert 0.8033310304331267 <...
+FAILED fake.py::test_age_group_fairness[51-100] - assert 0.9758821316134961 <...
+FAILED fake.py::test_age_group_fairness[52-100] - assert 0.5449821477142038 <...
+FAILED fake.py::test_age_group_fairness[53-100] - assert 0.4913568089952013 <...
+FAILED fake.py::test_age_group_fairness[54-100] - assert 0.5620518405077191 <...
+FAILED fake.py::test_age_group_fairness[55-100] - assert 0.7823497711140834 <...
+FAILED fake.py::test_age_group_fairness[56-100] - assert 0.8421658365481759 <...
+FAILED fake.py::test_age_group_fairness[57-100] - assert 0.5740011394064659 <...
+FAILED fake.py::test_age_group_fairness[58-100] - assert 0.7823497711140834 <...
+FAILED fake.py::test_age_group_fairness[59-100] - assert 0.3563348996576332 <...
+FAILED fake.py::test_age_group_fairness[60-100] - assert 0.36570809587797026 ...
+FAILED fake.py::test_age_group_fairness[61-100] - assert 0.7236615370872743 <...
+FAILED fake.py::test_age_group_fairness[62-100] - assert 0.13871959728390398 ...
+FAILED fake.py::test_age_group_fairness[63-100] - assert 0.5716190866498794 <...
+FAILED fake.py::test_age_group_fairness[64-100] - assert 0.3639033355579989 <...
+FAILED fake.py::test_age_group_fairness[65-100] - assert 0.7427181751221471 <...
+FAILED fake.py::test_age_group_fairness[66-100] - assert 0.9918413593211463 <...
+FAILED fake.py::test_age_group_fairness[67-100] - assert 0.24832230511697384 ...
+FAILED fake.py::test_age_group_fairness[68-100] - assert 0.9823922502802429 <...
+FAILED fake.py::test_age_group_fairness[69-100] - assert 0.46692577259908896 ...
+FAILED fake.py::test_age_group_fairness[70-100] - assert 0.5804206095365365 <...
+FAILED fake.py::test_age_group_fairness[71-100] - assert 0.9871744859237465 <...
+FAILED fake.py::test_age_group_fairness[72-100] - assert 0.7427181751221471 <...
+FAILED fake.py::test_age_group_fairness[73-100] - assert 0.08483774479657043 ...
+FAILED fake.py::test_age_group_fairness[74-100] - assert 0.25793600672914585 ...
+FAILED fake.py::test_age_group_fairness[75-100] - assert 0.2800424783517145 <...
+FAILED fake.py::test_age_group_fairness[76-100] - assert 0.24703967547830286 ...
+FAILED fake.py::test_age_group_fairness[77-100] - assert 0.27656495842622153 ...
+FAILED fake.py::test_age_group_fairness[78-100] - assert 0.9778421803539613 <...
+FAILED fake.py::test_age_group_fairness[79-100] - assert 0.5833204406366632 <...
+FAILED fake.py::test_age_group_fairness[80-100] - assert 0.24999177708264053 ...
+FAILED fake.py::test_age_group_fairness[81-100] - assert 0.9793252798322897 <...
+FAILED fake.py::test_age_group_fairness[82-100] - assert 0.1685847106870727 <...
+FAILED fake.py::test_age_group_fairness[83-100] - assert 0.6308387835879535 <...
+FAILED fake.py::test_age_group_fairness[84-100] - assert 0.6981690153914435 <...
+FAILED fake.py::test_age_group_fairness[85-100] - assert 0.8427422326978505 <...
+FAILED fake.py::test_age_group_fairness[86-100] - assert 0.5300983395189706 <...
+FAILED fake.py::test_age_group_fairness[87-100] - assert 0.4849733279319274 <...
+FAILED fake.py::test_age_group_fairness[88-100] - assert 0.15523176906207373 ...
+FAILED fake.py::test_age_group_fairness[90-100] - assert 0.4845384491327327 <...
+FAILED fake.py::test_age_group_fairness[92-100] - assert 0.5260317864344634 <...
+FAILED fake.py::test_age_group_fairness[93-100] - assert 0.8661583254095347 <...
+FAILED fake.py::test_age_group_fairness[94-100] - assert 0.4010255243701072 <...
+FAILED fake.py::test_age_group_fairness[96-100] - assert 0.6715309731364871 <...
+FAILED fake.py::test_age_group_fairness[97-100] - assert 0.41717522652518535 ...
+FAILED fake.py::test_age_group_fairness[98-100] - assert 0.17647910219667795 ...
+FAILED fake.py::test_age_group_fairness[99-100] - assert 0.8782333158320081 <...
+FAILED fake.py::test_age_group_fairness[100-100] - assert 0.9758821316134961 ...
+FAILED fake.py::test_age_casual_fairness[1-100] - assert 0 == 1
+FAILED fake.py::test_age_casual_fairness[16-100] - assert 1 == 0
+FAILED fake.py::test_age_casual_fairness[24-100] - assert 1 == 0
+FAILED fake.py::test_age_casual_fairness[84-100] - assert 1 == 0
+FAILED fake.py::test_age_casual_fairness[90-100] - assert 1 == 0
+FAILED fake.py::test_sex_casual_fairness[6-100] - assert 1 == 0
+FAILED fake.py::test_sex_casual_fairness[7-100] - assert 0 == 1
+FAILED fake.py::test_sex_casual_fairness[8-100] - assert 0 == 1
+FAILED fake.py::test_sex_casual_fairness[12-100] - assert 1 == 0
+FAILED fake.py::test_sex_casual_fairness[19-100] - assert 0 == 1
+FAILED fake.py::test_sex_casual_fairness[20-100] - assert 1 == 0
+FAILED fake.py::test_sex_casual_fairness[28-100] - assert 1 == 0
+FAILED fake.py::test_sex_casual_fairness[29-100] - assert 0 == 1
+FAILED fake.py::test_sex_casual_fairness[41-100] - assert 1 == 0
+FAILED fake.py::test_sex_casual_fairness[42-100] - assert 1 == 0
+FAILED fake.py::test_sex_casual_fairness[48-100] - assert 0 == 1
+FAILED fake.py::test_sex_casual_fairness[84-100] - assert 1 == 0
+======================= 179 failed, 221 passed in 13.51s =======================

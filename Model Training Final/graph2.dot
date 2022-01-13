@@ -1,0 +1,27 @@
+digraph{
+  orientation=portrait;
+  nodesep=0.05;
+  ranksep=0.25;
+  sch0[label="",shape=record,fontsize=8];
+
+  node1[label="union",shape=box,style="filled,rounded",color=cyan,fontsize=12];
+  sex -> node1;
+  job -> node1;
+  housing -> node1;
+  saving_accounts -> node1;
+  checking_account -> node1;
+  purpose -> node1;
+  sch1[label="<f0> -v-0",shape=record,fontsize=8];
+  node1 -> sch1:f0;
+
+  node2[label="OneHotEncoder",shape=box,style="filled,rounded",color=cyan,fontsize=12];
+  sch1:f0 -> node2;
+  sch2[label="<f0> -v-1",shape=record,fontsize=8];
+  node2 -> sch2:f0;
+
+  node3[label="DecisionTreeClassifier",shape=box,style="filled,rounded",color=yellow,fontsize=12];
+  sch2:f0 -> node3;
+  sch3[label="<f0> PredictedLabel|<f1> Probabilities",shape=record,fontsize=8];
+  node3 -> sch3:f0;
+  node3 -> sch3:f1;
+}

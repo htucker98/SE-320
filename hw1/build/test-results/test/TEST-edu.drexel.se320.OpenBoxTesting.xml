@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.drexel.se320.OpenBoxTesting" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-12-01T23:56:51" hostname="Hanas-MacBook-Air.local" time="0.024">
+  <properties/>
+  <testcase name="testNullElementEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.006"/>
+  <testcase name="testMidLessThanElementEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <testcase name="testLowValueCalcuatedEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <testcase name="testMidEqualsElementEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <testcase name="testMidValueCalculatedEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.002"/>
+  <testcase name="testNullArrayEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <testcase name="testElementNotFoundEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.002"/>
+  <testcase name="testMidGreaterThanElementEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <testcase name="testLowLessThanOrEqualToHighEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <testcase name="testHighValueCalcuatedEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <testcase name="testLowEqualsElementEvent()" classname="edu.drexel.se320.OpenBoxTesting" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

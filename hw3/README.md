@@ -1,4 +1,5 @@
-
+## Refactoring Explanation
+I choose to implement a collaborator factory method. That way I did not need to create a mock instance and client instance for each test. Instead, I just needed to create a client instance and a mock ServerConnection instance was automatically generated in the client's constructor by calling a method to create a mock ServerConnection.
 # SE320 Homework 3: Object Dependencies
 ## Fall 2021
 

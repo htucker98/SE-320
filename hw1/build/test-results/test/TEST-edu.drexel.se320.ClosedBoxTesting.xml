@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.drexel.se320.ClosedBoxTesting" tests="34" skipped="0" failures="0" errors="0" timestamp="2021-12-01T23:56:51" hostname="Hanas-MacBook-Air.local" time="0.251">
+  <properties/>
+  <testcase name="testSlightlyDifferentString()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.132"/>
+  <testcase name="testMiddleElementFoundDouble()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testFirstElementFoundInteger()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.003"/>
+  <testcase name="testEmptyStringFound()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testFirstInstanceOfRepeatDoubleAtFront()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.003"/>
+  <testcase name="testMiddleElementFoundString()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.002"/>
+  <testcase name="testFirstInstanceOfRepeatStringAtFront()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.004"/>
+  <testcase name="testSignsForZero()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.002"/>
+  <testcase name="testInternalBoundaryFrontDouble()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testNullArrayException()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.003"/>
+  <testcase name="testFindLargeSizeStringInEnd()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.002"/>
+  <testcase name="testInternalBoundaryPlusOneEndDouble()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.002"/>
+  <testcase name="testMiddleElementFoundInteger()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testInternalBoundaryMinusOneFrontInteger()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.004"/>
+  <testcase name="testInternalBoundaryPlusOneEndInteger()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.008"/>
+  <testcase name="testNullElementException()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testFirstInstanceOfRepeatIntegerInMiddle()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testFirstElementFoundDouble()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testInternalBoundaryEndInteger()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testLastElementFoundInteger()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.006"/>
+  <testcase name="testFindLargeSizeStringInFront()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testInternalBoundaryMinusOneFrontDouble()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testFirstElementFoundString()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testInternalBoundaryEndDouble()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testLastElementFoundDouble()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.006"/>
+  <testcase name="testFirstInstanceOfRepeatDoubleAtEnd()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.007"/>
+  <testcase name="testFirstInstanceOfRepeatStringAtEnd()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testFirstInstanceOfRepeatStringAtMiddle()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.0"/>
+  <testcase name="testLastElementFoundString()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testFirstInstanceOfRepeatDoubleAtMiddle()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.0"/>
+  <testcase name="testDifferentTypedDoubleOfSameValueIsFound()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.003"/>
+  <testcase name="testFirstInstanceOfRepeatIntegerAtFront()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.003"/>
+  <testcase name="testFirstInstanceOfRepeatIntegerAtEnd()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <testcase name="testInternalBoundaryFrontInteger()" classname="edu.drexel.se320.ClosedBoxTesting" time="0.001"/>
+  <system-out><![CDATA[low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+no such element in array
+low calculated
+high calculated
+low <= high
+mid calculated
+mid = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+no such element in array
+low calculated
+high calculated
+low <= high
+mid calculated
+low = element
+null array
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+no such element in array
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+no such element in array
+null element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+mid > element
+low <= high
+mid calculated
+low = element
+low calculated
+high calculated
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+mid < element
+low <= high
+mid calculated
+low = element
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

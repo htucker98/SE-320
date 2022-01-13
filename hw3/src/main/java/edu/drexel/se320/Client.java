@@ -3,15 +3,22 @@ package edu.drexel.se320;
 import java.io.IOException;
 import java.lang.IllegalArgumentException;
 import java.lang.StringBuilder;
-import java.lang.UnsupportedOperationException;
+import static org.mockito.Mockito.*;
 
 public class Client {
 
     private String lastResult;
     StringBuilder sb = null;
+    public ServerConnection server;
 
     public Client() {
         lastResult = "";
+        this.server = createMockServer();
+
+    }
+    protected ServerConnection createMockServer() {
+
+        return mock(ServerConnection.class);
     }
 
     public String requestFile(String server, String file) {
@@ -27,39 +34,22 @@ public class Client {
 	//
 	// To be clear: do NOT implement the methods below.  Instead, make it possible
 	// to run the code below with a mock, rather than this dummy implementation.
-        ServerConnection conn = new ServerConnection() {
-            public boolean connectTo(String address) throws IOException {
-                throw new UnsupportedOperationException();
-            }
-            public boolean requestFileContents(String filename) throws IOException {
-                throw new UnsupportedOperationException();
-            }
-            public String read() throws IOException {
-                throw new UnsupportedOperationException();
-            }
-            public boolean moreBytes() throws IOException {
-                throw new UnsupportedOperationException();
-            }
-            public void closeConnection() throws IOException {
-                throw new UnsupportedOperationException();
-            }
-        };
 
 	// We'll use a StringBuilder to construct large strings more efficiently
 	// than repeated linear calls to string concatenation.
         sb = new StringBuilder();
 
         try {
-            if (conn.connectTo(server)) {
-                boolean validFile = conn.requestFileContents(file);
+            if (this.server.connectTo(server)) {
+                boolean validFile = this.server.requestFileContents(file);
                 if (validFile) {
-                    while (conn.moreBytes()) {
-                        String tmp = conn.read();
+                    while (this.server.moreBytes()) {
+                        String tmp = this.server.read();
                         if (tmp != null) {
                             sb.append(tmp);
                         }
                     }
-                    conn.closeConnection();
+                    this.server.closeConnection();
                 }
             } else {
                 return null;
@@ -72,5 +62,6 @@ public class Client {
         lastResult = result;
         return result;
     }
+
 }
 

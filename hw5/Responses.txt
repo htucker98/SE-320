@@ -1,0 +1,1 @@
+Briefly explain the trade-offs involved in stopping at event coverage for this program, rather than pursuing event interaction coverage or length-n event sequence coverage. What kinds of tests is this simpler coverage criteria not forcing you to write? What are the advantages of not writing them (think about how many tests you'd need for the stronger criteria...).

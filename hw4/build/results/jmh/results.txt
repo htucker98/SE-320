@@ -1,0 +1,7 @@
+Benchmark                        Mode  Cnt    Score    Error   Units
+Benchmarking.putBenchmark       thrpt  200   13.946 ±  0.177  ops/us
+Benchmarking.zgetBenchmark      thrpt  200  148.316 ±  0.381  ops/us
+Benchmarking.zzdeleteBenchmark  thrpt  200  147.046 ±  0.852  ops/us
+Benchmarking.putBenchmark        avgt  200    0.066 ±  0.001   us/op
+Benchmarking.zgetBenchmark       avgt  200    0.007 ±  0.001   us/op
+Benchmarking.zzdeleteBenchmark   avgt  200    0.007 ±  0.001   us/op
